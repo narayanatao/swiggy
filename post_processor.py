@@ -2296,7 +2296,9 @@ def checking_stp_1(prediction):
         c=math.floor(prediction['invoiceNumber']['top'] * prediction['invoiceNumber']['image_height'])
         d=math.ceil(prediction['invoiceNumber']['bottom'] * prediction['invoiceNumber']['image_height'])
         filt = df[df["vendor_id"] == prediction['vendorGSTIN']['text']]
+
         # filt = df[df["vendor_name"] == prediction['vendorName']['text']]
+
         filt = filt[filt['field_name']=='invoiceNumber']
         invnum=prediction['invoiceNumber']['text']
         i=0
@@ -2325,8 +2327,10 @@ def checking_stp_1(prediction):
                     else:
                         prediction['invoiceNumber']['final_confidence_score']=0.75
                     break
+
         else:
             prediction['invoiceNumber']['final_confidence_score']=0.5
+
 
         #invoice_date stp checking
         a= math.floor(prediction['invoiceDate']['left'] * prediction['invoiceDate']['image_widht'])
@@ -2334,7 +2338,9 @@ def checking_stp_1(prediction):
         c=math.floor(prediction['invoiceDate']['top'] * prediction['invoiceDate']['image_height'])
         d=math.ceil(prediction['invoiceDate']['bottom'] * prediction['invoiceDate']['image_height'])
         filt = df[df["vendor_id"] == prediction['vendorGSTIN']['text']]
+
         # filt = df[df["vendor_name"] == prediction['vendorName']['text']]
+
         filt = filt[filt['field_name']=='invoiceDate']
         i=0
         if (filt.shape[0])>0:
@@ -2355,8 +2361,10 @@ def checking_stp_1(prediction):
                     #prediction['invoiceDate']['wordshape_confidence']=0.75
                     prediction['invoiceDate']['final_confidence_score']=0.65
                     break
+
         else:
             prediction['invoiceDate']['final_confidence_score']=0.5
+
         return prediction
     except:
         print('there is a exeption')

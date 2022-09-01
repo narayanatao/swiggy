@@ -508,7 +508,7 @@ SWIGGY,,SWIGGY_10512,SGSTAmount,ANCHOR_LEFT_TOP,ANCHOR_LEFT_TOP,"d,ddd.dd",NONE,
 SWIGGY,,SWIGGY_10513,subTotal,ANCHOR_LEFT_TOP,ANCHOR_LEFT_TOP,"d,dd,ddd.dd",NONE,Not Applicable,Not Applicable,Not Applicable,Total,Taxable Value,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
 SWIGGY,,SWIGGY_10514,totalGSTAmount,ANCHOR_LEFT_TOP,ANCHOR_LEFT_TOP,"d,ddd.dd",NONE,Not Applicable,Not Applicable,Not Applicable,Total,Total Tax Amount,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
 SWIGGY,,SWIGGY_10515,invoiceDate,Dated,Above,d-Xxx-dd,NONE,Not Applicable,Mode/Terms of Payment,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
-SWIGGY,,SWIGGY_10516,invoiceDate,Dated,Above,dd-Xxx-dddd,NONE,Not Applicable,Supplier’s ref.,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+SWIGGY,,SWIGGY_10516,invoiceDate,Dated,Above,dd-Xxx-dddd,NONE,Not Applicable,Supplier√ïs ref.,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
 SWIGGY,,SWIGGY_10517,subTotal,Total Amount Before GST,Left,dddd.dd,NONE,Not Applicable,Not Applicable,0,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
 SWIGGY,,SWIGGY_10518,totalAmount,Rounded Off,Left,"d,ddd.dd",NONE,Not Applicable,Not Applicable,0,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
 SWIGGY,,SWIGGY_10519,subTotal,Sub Total,Left,"dd,ddd.dd",NONE,Not Applicable,Not Applicable,0,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
@@ -748,14 +748,18 @@ SWIGGY,SWIGGY_404,,invoiceNumber,MULTI_TOKEN,MULTI_TOKEN,MULTI_TOKEN,NONE,Not Ap
 SWIGGY,SWIGGY_767,,invoiceNumber,MULTI_TOKEN,MULTI_TOKEN,MULTI_TOKEN,NONE,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,place of supply,Date,#,place of supply,YES,NO,Not Applicable
 SWIGGY,SWIGGY_767,,invoiceDate,Bill of supply Date,Left,dd/dd/dddd,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
 SWIGGY,SWIGGY_60,,invoiceNumber,Invoice No,Above,ddd,NONE,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
+
 SWIGGY,SWIGGY_113,,invoiceDate,MULTI_TOKEN,MULTI_TOKEN,MULTI_TOKEN,NONE,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Invoice,PO number,Number,PAGE_BOUNDARY,YES,NO,Not Applicable
+
 SWIGGY,SWIGGY_699,,totalAmount,Net Payable Amount,Left,"d,ddd.dd",NONE,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
 SWIGGY,SWIGGY_113,,invoiceNumber,MULTI_TOKEN,MULTI_TOKEN,MULTI_TOKEN,NONE,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Invoice,PO number,Invoice,Invoice Date,YES,NO,Not Applicable
 SWIGGY,SWIGGY_489,,invoiceDate,MULTI_TOKEN,MULTI_TOKEN,MULTI_TOKEN,NONE,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Inv. No,PO. No,Inv Date,PAGE BOUNDARY,NO,NO,Not Applicable
 SWIGGY,SWIGGY_351,,invoiceDate,Inv Dt,Left,dd/dd/dddd,NONE,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable
 SWIGGY,SWIGGY_1002,,invoiceNumber,MULTI_TOKEN,MULTI_TOKEN,MULTI_TOKEN,NONE,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TAX INVOICE,Date,#,place of supply,NO,NO,Not Applicable
+
 SWIGGY,SWIGGY_851,,invoiceNumber,MULTI_TOKEN,MULTI_TOKEN,MULTI_TOKEN,NONE,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TAX INVOICE,Date,#,place of supply,NO,NO,Not Applicable
 SWIGGY,SWIGGY_298,,invoiceDate,MULTI_TOKEN,MULTI_TOKEN,MULTI_TOKEN,NONE,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Invoice Date,Payment Terms,Invoice Date,Payment Terms,YES,NO,Not Applicable
 SWIGGY,SWIGGY_121,,invoiceNumber,MULTI_TOKEN,MULTI_TOKEN,MULTI_TOKEN,NONE,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Invoice No:,Details of Buyer,Invoice No:,TAX INVOICE,YES,NO,Not Applicable
 SWIGGY,SWIGGY_160,,invoiceDate,MULTI_TOKEN,MULTI_TOKEN,MULTI_TOKEN,NONE,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TAX INVOICE,Dated,Dated ,PAGE_BOUNDARY,NO,YES,Not Applicable
 SWIGGY,SWIGGY_488,,invoiceNumber,MULTI_TOKEN,MULTI_TOKEN,MULTI_TOKEN,NONE,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TAX INVOICE,INVOICE NO,INVOICE NO,PAGE_BOUNDARY,NO,YES,Not Applicable
+
