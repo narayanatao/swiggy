@@ -1,0 +1,8 @@
+{"BARCODE_PTN" : ["^(8821)\\d{8}$","^(872)\\d{9}$"],
+"PREFORM_TXT" : ["PREFORM","PREFORMS"],
+"SPECIAL_CHARS_REMOVE" : [":","|"],
+"HEADER_REQUIRED_FIELDS" : ["invoiceDate", "invoiceNumber", "poNumber", "billingGSTIN",
+"shippingGSTIN", "vendorGSTIN", "vendorName", "vendorAddress", "shippingAddress",
+"billingAddress", "totalAmount", "CGSTAmount", "SGSTAmount", "IGSTAmount",
+"CessAmount", "freightAmount", "insuranceAmount", "TCSAmount", "subTotal"],
+"LI_REQUIRED_FIELDS" : ["HSNCode", "itemQuantity", "itemValue", "unitPrice", "itemDescription", "HSNCode"]}

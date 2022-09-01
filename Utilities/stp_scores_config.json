@@ -1,0 +1,344 @@
+{
+	"DEFAULT": {
+		"invoiceNumber": {
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 1,
+			"api_flag" : 1,
+			"mandatory": 1,
+			"fldType":"alpha-numeric"
+		},
+		"invoiceDate": {
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 2,
+			"api_flag" : 1,
+			"mandatory": 1,
+			"fldType":"date"
+		},
+		"poNumber": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"alpha-numeric"
+		},
+		"billingGSTIN": {
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 5,
+			"api_flag" : 1,
+			"mandatory": 1,
+			"fldType":"alpha-numeric",
+			"format":"00XXXXX0000X0XI"
+		},
+		"shippingGSTIN": {
+			"minimum_confidence": 0.0,
+			"display_flag": 1,
+			"order" : 7,
+			"api_flag" : 1,
+			"mandatory": 1,
+			"fldType":"alpha-numeric",
+			"format":"00XXXXX0000X0XI"
+		},
+		"vendorGSTIN": {
+			"minimum_confidence": 0.0,
+			"display_flag": 1,
+			"order" : 3,
+			"api_flag" : 1,
+			"mandatory": 1,
+			"fldType":"alpha-numeric",
+			"format":"00XXXXX0000X0XI"
+		},
+		"vendorName": {
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 4,
+			"api_flag" : 1,
+			"mandatory": 1,
+			"fldType":"alpha-numeric"
+		},
+		"billingName": {
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 6,
+			"api_flag" : 1,
+			"mandatory": 1,
+			"fldType":"alpha-numeric"
+		},
+		"shippingName": {
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 8,
+			"api_flag" : 1,
+			"mandatory": 1,
+			"fldType":"alpha-numeric"
+		},
+		"vendorAddress": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"alpha-numeric"
+		},
+		"shippingAddress": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"alpha-numeric"
+		},
+		"billingAddress": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"alpha-numeric"
+		},
+		"subTotal" :{
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 9,
+			"api_flag" : 1,
+			"mandatory": 1,
+			"fldType":"numeric"
+		},
+		"totalAmount": {
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 17,
+			"api_flag" : 1,
+			"mandatory": 1,
+			"fldType":"numeric"
+		},
+		"CGSTAmount": {
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 11,
+			"api_flag" : 1,
+			"mandatory": 0,
+			"fldType":"numeric"
+		},
+		"SGSTAmount": {
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 12,
+			"api_flag" : 1,
+			"mandatory": 0,
+			"fldType":"numeric"
+		},
+		"IGSTAmount": {
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 13,
+			"api_flag" : 1,
+			"mandatory": 0,
+			"fldType":"numeric"
+		},
+		"barCode": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"alpha-numeric"
+		},
+		"CessAmount": {
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 14,
+			"api_flag" : 1,
+			"mandatory": 0,
+			"fldType":"numeric"
+		},
+		"additionalCessAmount": {
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 15,
+			"api_flag" : 1,
+			"mandatory": 0,
+			"fldType":"numeric"
+		},
+		"freightAmount": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"numeric"
+		},
+		"tcsAmount": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"numeric"
+		},
+		"dueDate": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"date"
+		},
+		"discountAmount": {
+			"minimum_confidence": 0.0,
+			"display_flag": 1,
+			"order" : 10,
+			"api_flag" : 1,
+			"mandatory": 0,
+			"fldType":"numeric"
+		},
+		"insuranceAmount": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"numeric"
+		},
+		"preform": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"alpha-numeric"
+		},
+		"paymentTerms": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"alpha-numeric"
+		},
+		"invoiceNumber_QR": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"alpha-numeric"
+		},
+		"invoceDate_QR": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"alpha-numeric"
+		},
+		"totalAmount_QR": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"alpha-numeric"
+		},
+		"irnNumber_QR": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"alpha-numeric"
+		},
+		"irnDate_QR": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"alpha-numeric"
+		},
+		"vendorGSTIN_QR": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"alpha-numeric"
+		},
+		"buyerGSTIN_QR": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0,
+			"order" : 0,
+			"api_flag" : 0,
+			"mandatory": 0,
+			"fldType":"alpha-numeric"
+		},
+		"totalGSTAmount": {
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 16,
+			"api_flag" : 1,
+			"mandatory": 1,
+			"fldType":"numeric"
+		},
+		"vendorPAN": {
+			"minimum_confidence": 0.9,
+			"display_flag": 1,
+			"order" : 18,
+			"api_flag" : 1,
+			"mandatory": 1,
+			"fldType":"alpha-numeric",
+			"format":"XXXXX0000X"
+		},
+		"LI_HSNCode": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0
+		},
+		"LI_itemQuantity": {
+			"minimum_confidence": 0.9,
+			"display_flag": 0
+		},
+		"LI_itemValue": {
+			"minimum_confidence": 0.9,
+			"display_flag": 0
+		},
+		"LI_unitPrice": {
+			"minimum_confidence": 0.7,
+			"display_flag": 0
+		},
+		"LI_CGSTAmount": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0
+		},
+		"LI_SGSTAmount": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0
+		},
+		"LI_IGSTAmount": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0
+		},
+		"LI_itemDescription": {
+			"minimum_confidence": 0.4,
+			"display_flag": 0
+		},
+		"LI_UOM": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0
+		},
+		"LI_itemCode": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0
+		},
+		"LI_Type": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0
+		},
+		"LI_CessAmount": {
+			"minimum_confidence": 0.0,
+			"display_flag": 0
+		}
+	}
+}
