@@ -1,0 +1,731 @@
+VENDOR_NAME,VENDOR_ID,TABLE_NAME,HEADER,FOOTER,COLUMN_NAME,COLUMN_HEADER,COLUMN_NO,ANCHOR_COLUMN,ANCHOR_COLUMN_ALIGNMENT,COLUMN_TYPE,TABLE_HEADER_ALIGNMENT,TABLE_VALUE_ALIGNMENT,HEADER_SHIFT_UNITS
+VELANKANI_1815,VELANKANI_1815,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_1815,VELANKANI_1815,LI,Not Applicable,SGST,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_1815,VELANKANI_1815,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+VELANKANI_1815,VELANKANI_1815,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of Goods,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+VELANKANI_1815,VELANKANI_1815,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_1815,VELANKANI_1815,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_1815,VELANKANI_1815,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,4,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_1815,VELANKANI_1815,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_306,VELANKANI_306,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_306,VELANKANI_306,LI,Not Applicable,Sub Total,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_306,VELANKANI_306,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+VELANKANI_306,VELANKANI_306,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of Goods,1,YES,Not Applicable,MULTI,NONE,NONE,NONE
+VELANKANI_306,VELANKANI_306,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_306,VELANKANI_306,LI,Not Applicable,Not Applicable,MRP,MRP,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_306,VELANKANI_306,LI,Not Applicable,Not Applicable,LI_itemCode,Batch No,4,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_306,VELANKANI_306,LI,Not Applicable,Not Applicable,MfgDate,Mfg Date,5,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_306,VELANKANI_306,LI,Not Applicable,Not Applicable,UOM,UOM,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_306,VELANKANI_306,LI,Not Applicable,Not Applicable,LI_itemValue,Taxable,7,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_306,VELANKANI_306,LI,Not Applicable,Not Applicable,LI_IGSTAmount,IGST,8,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_306,VELANKANI_306,LI,Not Applicable,Not Applicable,LI_itemValue,Total,9,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VELANKANI_306,VELANKANI_306,LI,Not Applicable,Not Applicable,Cess,Cess,10,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+ARVIND SALES AGENCY,PERNOD_112,LI,M/S PERNOD RICARD PVT.LTD,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+ARVIND SALES AGENCY,PERNOD_112,LI,Not Applicable,for arvind sales agencies,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+ARVIND SALES AGENCY,PERNOD_112,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+ARVIND SALES AGENCY,PERNOD_112,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN,1,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+ARVIND SALES AGENCY,PERNOD_112,LI,Not Applicable,Not Applicable,LI_itemDescription,Poducts,2,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+ARVIND SALES AGENCY,PERNOD_112,LI,Not Applicable,Not Applicable,LI_taxRate,TAX%,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+ARVIND SALES AGENCY,PERNOD_112,LI,Not Applicable,Not Applicable,LI_itemCode,Batch,4,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+ARVIND SALES AGENCY,PERNOD_112,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,5,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+ARVIND SALES AGENCY,PERNOD_112,LI,Not Applicable,Not Applicable,LI_itemValue,Free,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+ARVIND SALES AGENCY,PERNOD_112,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+ARVIND SALES AGENCY,PERNOD_112,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,8,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+BKM INDUSTRIES LTD,PERNOD_120,LI,Details of issue of invoice ,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+BKM INDUSTRIES LTD,PERNOD_120,LI,Not Applicable,Amount payable in words,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+BKM INDUSTRIES LTD,PERNOD_120,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+BKM INDUSTRIES LTD,PERNOD_120,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of goods,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+BKM INDUSTRIES LTD,PERNOD_120,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+BKM INDUSTRIES LTD,PERNOD_120,LI,Not Applicable,Not Applicable,LI_UOM,Unit,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+BKM INDUSTRIES LTD,PERNOD_120,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate ,4,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+BKM INDUSTRIES LTD,PERNOD_120,LI,Not Applicable,Not Applicable,LI_itemValue,Value,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+BKM INDUSTRIES LTD,PERNOD_120,LI,Not Applicable,Not Applicable,P&F charge ,P&F,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+BKM INDUSTRIES LTD,PERNOD_120,LI,Not Applicable,Not Applicable,LI_discountAmount,Disc ,7,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+BKM INDUSTRIES LTD,PERNOD_120,LI,Not Applicable,Not Applicable,LI_itemValue,Taxable,8,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+BKM INDUSTRIES LTD,PERNOD_120,LI,Not Applicable,Not Applicable,LI_taxAmount,GST,9,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+BKM INDUSTRIES LTD,PERNOD_120,LI,Not Applicable,Not Applicable,LI_itemValue,Net Amt,10,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+EMPIRE MULTIPACK PVT LTD,PERNOD_147,LI,State name,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+EMPIRE MULTIPACK PVT LTD,PERNOD_147,LI,Not Applicable,OUTPUT IGST,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+EMPIRE MULTIPACK PVT LTD,PERNOD_147,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+EMPIRE MULTIPACK PVT LTD,PERNOD_147,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of goods,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+EMPIRE MULTIPACK PVT LTD,PERNOD_147,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+EMPIRE MULTIPACK PVT LTD,PERNOD_147,LI,Not Applicable,Not Applicable,LI_itemQuantity,QUANTITY,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+EMPIRE MULTIPACK PVT LTD,PERNOD_147,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,4,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+EMPIRE MULTIPACK PVT LTD,PERNOD_147,LI,Not Applicable,Not Applicable,LI_UOM,per,5,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+EMPIRE MULTIPACK PVT LTD,PERNOD_147,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+HEERA BOTTLE SUPPLY COMPANY,PERNOD_164,LI,Electronics ref no,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+HEERA BOTTLE SUPPLY COMPANY,PERNOD_164,LI,Not Applicable,Total amount in words,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+HEERA BOTTLE SUPPLY COMPANY,PERNOD_164,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+HEERA BOTTLE SUPPLY COMPANY,PERNOD_164,LI,Not Applicable,Not Applicable,LI_itemDescription,Particulars or,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+HEERA BOTTLE SUPPLY COMPANY,PERNOD_164,LI,Not Applicable,Not Applicable,LI_HSNCode,Code,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+HEERA BOTTLE SUPPLY COMPANY,PERNOD_164,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+HEERA BOTTLE SUPPLY COMPANY,PERNOD_164,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+HEERA BOTTLE SUPPLY COMPANY,PERNOD_164,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+HEERA BOTTLE SUPPLY COMPANY,PERNOD_164,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+IDEAL SALES CORPORATION,PERNOD_166,LI,SALEE PLAZA,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+IDEAL SALES CORPORATION,PERNOD_166,LI,Not Applicable,Rupees in words,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+IDEAL SALES CORPORATION,PERNOD_166,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+IDEAL SALES CORPORATION,PERNOD_166,LI,Not Applicable,Not Applicable,LI_itemDescription,DESCRIPTION,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+IDEAL SALES CORPORATION,PERNOD_166,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+IDEAL SALES CORPORATION,PERNOD_166,LI,Not Applicable,Not Applicable,LI_itemValue,Sale,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+IDEAL SALES CORPORATION,PERNOD_166,LI,Not Applicable,Not Applicable,Purchase,Purchase,4,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+IDEAL SALES CORPORATION,PERNOD_166,LI,Not Applicable,Not Applicable,Margin,Margin,5,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+IDEAL SALES CORPORATION,PERNOD_166,LI,Not Applicable,Not Applicable,LI_itemValue,Taxable,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+IDEAL SALES CORPORATION,PERNOD_166,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CRYSTAL CAPS,PERNOD_136,LI,sane as consignee,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+CRYSTAL CAPS,PERNOD_136,LI,Not Applicable,Total value,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+CRYSTAL CAPS,PERNOD_136,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+CRYSTAL CAPS,PERNOD_136,LI,Not Applicable,Not Applicable,No & kind,No & kind,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+CRYSTAL CAPS,PERNOD_136,LI,Not Applicable,Not Applicable,LI_itemDescription,description of goods,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+CRYSTAL CAPS,PERNOD_136,LI,Not Applicable,Not Applicable,LI_HSNCode,Triff/HSN,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+CRYSTAL CAPS,PERNOD_136,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CRYSTAL CAPS,PERNOD_136,LI,Not Applicable,Not Applicable,LI_itemQuantity,Pieces,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CRYSTAL CAPS,PERNOD_136,LI,Not Applicable,Not Applicable,LI_itemValue,Total amount,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+DA PACKAGING PRIVATE LIMITED,PERNOD_137,LI,Terms of delivery,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DA PACKAGING PRIVATE LIMITED,PERNOD_137,LI,Not Applicable,amount chargeable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DA PACKAGING PRIVATE LIMITED,PERNOD_137,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+DA PACKAGING PRIVATE LIMITED,PERNOD_137,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of goods,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+DA PACKAGING PRIVATE LIMITED,PERNOD_137,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DA PACKAGING PRIVATE LIMITED,PERNOD_137,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DA PACKAGING PRIVATE LIMITED,PERNOD_137,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,4,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DA PACKAGING PRIVATE LIMITED,PERNOD_137,LI,Not Applicable,Not Applicable,LI_UOM,per,5,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DA PACKAGING PRIVATE LIMITED,PERNOD_137,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+DAKSHIN PLASTICS PVT LTD,PERNOD_138,LI,Details of recipient,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DAKSHIN PLASTICS PVT LTD,PERNOD_138,LI,Not Applicable,Total invoice amount in words,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DAKSHIN PLASTICS PVT LTD,PERNOD_138,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+DAKSHIN PLASTICS PVT LTD,PERNOD_138,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of goods ,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+DAKSHIN PLASTICS PVT LTD,PERNOD_138,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+DAKSHIN PLASTICS PVT LTD,PERNOD_138,LI,Not Applicable,Not Applicable,LI_itemValue,Total,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DAKSHIN PLASTICS PVT LTD,PERNOD_138,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate per,4,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DAKSHIN PLASTICS PVT LTD,PERNOD_138,LI,Not Applicable,Not Applicable,LI_itemValue,Amount in ,5,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DAKSHIN PLASTICS PVT LTD,PERNOD_138,LI,Not Applicable,Not Applicable,LI_itemValue,Total amount,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DHATRI TRADERS,PERNOD_142,LI,Bill to party,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DHATRI TRADERS,PERNOD_142,LI,Not Applicable,Bank details,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DHATRI TRADERS,PERNOD_142,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+DHATRI TRADERS,PERNOD_142,LI,Not Applicable,Not Applicable,LI_itemDescription,product description,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+DHATRI TRADERS,PERNOD_142,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN CODE,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DHATRI TRADERS,PERNOD_142,LI,Not Applicable,Not Applicable,LI_UOM,UOM,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DHATRI TRADERS,PERNOD_142,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+DHATRI TRADERS,PERNOD_142,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+DHATRI TRADERS,PERNOD_142,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DHATRI TRADERS,PERNOD_142,LI,Not Applicable,Not Applicable,LI_itemValue,Total,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAA SIDDHESHWARI TRADERS,PERNOD_189,LI,VILL KALADERA,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAA SIDDHESHWARI TRADERS,PERNOD_189,LI,Not Applicable,Total,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAA SIDDHESHWARI TRADERS,PERNOD_189,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+MAA SIDDHESHWARI TRADERS,PERNOD_189,LI,Not Applicable,Not Applicable,LI_itemDescription,GOODS/SERVICES,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+MAA SIDDHESHWARI TRADERS,PERNOD_189,LI,Not Applicable,Not Applicable,LI_HSNCode,Code,2,Not Applicable,Not Applicable,Not Applicable,MIDDLE,RIGHT,1
+MAA SIDDHESHWARI TRADERS,PERNOD_189,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAA SIDDHESHWARI TRADERS,PERNOD_189,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,4,YES,Not Applicable,MULTI,NONE,NONE,NONE
+MAA SIDDHESHWARI TRADERS,PERNOD_189,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,5,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAA SIDDHESHWARI TRADERS,PERNOD_189,LI,Not Applicable,Not Applicable,LI_unitPrice,taxable,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAA SIDDHESHWARI TRADERS,PERNOD_189,LI,Not Applicable,Not Applicable,LI_itemValue,taxable amount,7,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAA SIDDHESHWARI TRADERS,PERNOD_189,LI,Not Applicable,Not Applicable,Margin,Margin,8,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAA SIDDHESHWARI TRADERS,PERNOD_189,LI,Not Applicable,Not Applicable,LI_itemValue,TAXABLE VALUE,9,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAHARISHI LABELS PVT LTD,PERNOD_192,LI,Delivery terms,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAHARISHI LABELS PVT LTD,PERNOD_192,LI,Not Applicable,Declaration,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAHARISHI LABELS PVT LTD,PERNOD_192,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+MAHARISHI LABELS PVT LTD,PERNOD_192,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,1,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAHARISHI LABELS PVT LTD,PERNOD_192,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of goods/services,2,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+MAHARISHI LABELS PVT LTD,PERNOD_192,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAHARISHI LABELS PVT LTD,PERNOD_192,LI,Not Applicable,Not Applicable,LI_UOM,Unit,4,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAHARISHI LABELS PVT LTD,PERNOD_192,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAHARISHI LABELS PVT LTD,PERNOD_192,LI,Not Applicable,Not Applicable,LI_discountAmount,Disc ,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAHARISHI LABELS PVT LTD,PERNOD_192,LI,Not Applicable,Not Applicable,LI_itemValue,of supply,7,YES,Not Applicable,Not Applicable,LEFT,MIDDLE,1
+MAHARISHI LABELS PVT LTD,PERNOD_192,LI,Not Applicable,Not Applicable,LI_CGSTAmount,CGST,8,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAHARISHI LABELS PVT LTD,PERNOD_192,LI,Not Applicable,Not Applicable,LI_SGSTAmount,SGST/UTGST,9,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MAHARISHI LABELS PVT LTD,PERNOD_192,LI,Not Applicable,Not Applicable,LI_IGSTAmount,IGST,10,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MARG DARSHAN TRADERS,PERNOD_196,LI,MADHYA PRADESH,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MARG DARSHAN TRADERS,PERNOD_196,LI,Not Applicable,Bank details,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MARG DARSHAN TRADERS,PERNOD_196,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+MARG DARSHAN TRADERS,PERNOD_196,LI,Not Applicable,Not Applicable,LI_itemDescription,Name of product description,1,Not Applicable,Not Applicable,MULTI,LEFT,LEFT,0.5
+MARG DARSHAN TRADERS,PERNOD_196,LI,Not Applicable,Not Applicable,LI_itemQuantity,Box,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+MARG DARSHAN TRADERS,PERNOD_196,LI,Not Applicable,Not Applicable,Packing,Packing,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+MARG DARSHAN TRADERS,PERNOD_196,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN Code,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+MARG DARSHAN TRADERS,PERNOD_196,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,5,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MARG DARSHAN TRADERS,PERNOD_196,LI,Not Applicable,Not Applicable,LI_UOM,UCOM,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MARG DARSHAN TRADERS,PERNOD_196,LI,Not Applicable,Not Applicable,LI_taxRate,margin,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+MARG DARSHAN TRADERS,PERNOD_196,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,8,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S BOTTLERS,PERNOD_261,LI,State HARYANA,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S BOTTLERS,PERNOD_261,LI,Not Applicable,Amount in words,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S BOTTLERS,PERNOD_261,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+S S BOTTLERS,PERNOD_261,LI,Not Applicable,Not Applicable,LI_itemDescription,Name of product,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+S S BOTTLERS,PERNOD_261,LI,Not Applicable,Not Applicable,LI_UOM,UNIT,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S BOTTLERS,PERNOD_261,LI,Not Applicable,Not Applicable,LI_HSNCode,Code,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S BOTTLERS,PERNOD_261,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,4,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S BOTTLERS,PERNOD_261,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S BOTTLERS,PERNOD_261,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S BOTTLERS,PERNOD_261,LI,Not Applicable,Not Applicable,LI_unitPrice,N/tax ,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S BOTTLERS,PERNOD_261,LI,Not Applicable,Not Applicable,LI_itemValue,Non taxable,8,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S BOTTLERS,PERNOD_261,LI,Not Applicable,Not Applicable,Margin,Margin,9,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S BOTTLERS,PERNOD_261,LI,Not Applicable,Not Applicable,LI_itemValue,Taxable,10,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+KARTHIK AGRO INDUSTRIES PVT LTD.,PERNOD_178,LI,pernod ricard india,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+KARTHIK AGRO INDUSTRIES PVT LTD.,PERNOD_178,LI,Not Applicable,sub total,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+KARTHIK AGRO INDUSTRIES PVT LTD.,PERNOD_178,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+KARTHIK AGRO INDUSTRIES PVT LTD.,PERNOD_178,LI,Not Applicable,Not Applicable,LI_itemDescription,perticulars of spirit,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+KARTHIK AGRO INDUSTRIES PVT LTD.,PERNOD_178,LI,Not Applicable,Not Applicable,LI_HSNCode,item code,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+KARTHIK AGRO INDUSTRIES PVT LTD.,PERNOD_178,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty in BL,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+KARTHIK AGRO INDUSTRIES PVT LTD.,PERNOD_178,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate per BL,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+KARTHIK AGRO INDUSTRIES PVT LTD.,PERNOD_178,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SAKSHI ENTERPRISE,PERNOD_105,LI,Buyers name,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SAKSHI ENTERPRISE,PERNOD_105,LI,Not Applicable,Total value of the non taxable basic price,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SAKSHI ENTERPRISE,PERNOD_105,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+SAKSHI ENTERPRISE,PERNOD_105,LI,Not Applicable,Not Applicable,LI_itemDescription,DESCRIPTION,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+SAKSHI ENTERPRISE,PERNOD_105,LI,Not Applicable,Not Applicable,Nature of Taxation,Nature of Taxation,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SAKSHI ENTERPRISE,PERNOD_105,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SAKSHI ENTERPRISE,PERNOD_105,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SAKSHI ENTERPRISE,PERNOD_105,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,5,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,1
+FINE PACKAGING INDUSTRIES,PERNOD_149,LI,Agent,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FINE PACKAGING INDUSTRIES,PERNOD_149,LI,Not Applicable,pymt,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FINE PACKAGING INDUSTRIES,PERNOD_149,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+FINE PACKAGING INDUSTRIES,PERNOD_149,LI,Not Applicable,Not Applicable,LI_itemDescription,DESCRIPTION,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+FINE PACKAGING INDUSTRIES,PERNOD_149,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SA,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FINE PACKAGING INDUSTRIES,PERNOD_149,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity ,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FINE PACKAGING INDUSTRIES,PERNOD_149,LI,Not Applicable,Not Applicable,LI_UOM,Units,4,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FINE PACKAGING INDUSTRIES,PERNOD_149,LI,Not Applicable,Not Applicable,LI_unitPrice,RATE IN,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+FINE PACKAGING INDUSTRIES,PERNOD_149,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+GLASSEX INDIA PVT LTD,PERNOD_151,LI,Person,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+GLASSEX INDIA PVT LTD,PERNOD_151,LI,Not Applicable,GST on reverse charge,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+GLASSEX INDIA PVT LTD,PERNOD_151,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Bottom,Not Applicable,NONE,NONE,NONE
+GLASSEX INDIA PVT LTD,PERNOD_151,LI,Not Applicable,Not Applicable,LI_itemCode,internal,1,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+GLASSEX INDIA PVT LTD,PERNOD_151,LI,Not Applicable,Not Applicable,LI_itemDescription,Goods description ,2,Not Applicable,Not Applicable,MULTI,LEFT,LEFT,1
+GLASSEX INDIA PVT LTD,PERNOD_151,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN code,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+GLASSEX INDIA PVT LTD,PERNOD_151,LI,Not Applicable,Not Applicable,LI_itemDescription,No.&Desc,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+GLASSEX INDIA PVT LTD,PERNOD_151,LI,Not Applicable,Not Applicable,Avg Content ,Avg Content ,5,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+GLASSEX INDIA PVT LTD,PERNOD_151,LI,Not Applicable,Not Applicable,LI_itemValue,Total,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+GLASSEX INDIA PVT LTD,PERNOD_151,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+JHARKHAND STATE BEVERAGES CORPORATION LIMITED,PERNOD_173,LI,Bill to party,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+JHARKHAND STATE BEVERAGES CORPORATION LIMITED,PERNOD_173,LI,Not Applicable,total invoice amount in words,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+JHARKHAND STATE BEVERAGES CORPORATION LIMITED,PERNOD_173,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+JHARKHAND STATE BEVERAGES CORPORATION LIMITED,PERNOD_173,LI,Not Applicable,Not Applicable,LI_itemDescription,Product description,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,0.5
+JHARKHAND STATE BEVERAGES CORPORATION LIMITED,PERNOD_173,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN code,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+JHARKHAND STATE BEVERAGES CORPORATION LIMITED,PERNOD_173,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+JHARKHAND STATE BEVERAGES CORPORATION LIMITED,PERNOD_173,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,4,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+JHARKHAND STATE BEVERAGES CORPORATION LIMITED,PERNOD_173,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+JHARKHAND STATE BEVERAGES CORPORATION LIMITED,PERNOD_173,LI,Not Applicable,Not Applicable,LI_discountAmount,Discount,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+JHARKHAND STATE BEVERAGES CORPORATION LIMITED,PERNOD_173,LI,Not Applicable,Not Applicable,LI_itemValue,taxable value,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+JHARKHAND STATE BEVERAGES CORPORATION LIMITED,PERNOD_173,LI,Not Applicable,Not Applicable,LI_itemValue,total,8,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SENTINI BIOPRODUCTS (P) LTD,PERNOD_272,LI,Commissioner Ailotment order no,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SENTINI BIOPRODUCTS (P) LTD,PERNOD_272,LI,Not Applicable,Export pass fees ,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SENTINI BIOPRODUCTS (P) LTD,PERNOD_272,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+SENTINI BIOPRODUCTS (P) LTD,PERNOD_272,LI,Not Applicable,Not Applicable,LI_itemDescription,Item,1,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SENTINI BIOPRODUCTS (P) LTD,PERNOD_272,LI,Not Applicable,Not Applicable,LI_itemDescription,DESCRIPTION OF GOODS,2,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+SENTINI BIOPRODUCTS (P) LTD,PERNOD_272,LI,Not Applicable,Not Applicable,LI_UOM,UOM,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SENTINI BIOPRODUCTS (P) LTD,PERNOD_272,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty.,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SENTINI BIOPRODUCTS (P) LTD,PERNOD_272,LI,Not Applicable,Not Applicable,LI_unitPrice,Price,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SENTINI BIOPRODUCTS (P) LTD,PERNOD_272,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHANKARLAL GULABCHAND AND COMAPANY,PERNOD_273,LI,pernod ricard india,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHANKARLAL GULABCHAND AND COMAPANY,PERNOD_273,LI,Not Applicable,Amount chargeble,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHANKARLAL GULABCHAND AND COMAPANY,PERNOD_273,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+SHANKARLAL GULABCHAND AND COMAPANY,PERNOD_273,LI,Not Applicable,Not Applicable,LI_itemDescription,DESCRIPTION OF GOODS,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+SHANKARLAL GULABCHAND AND COMAPANY,PERNOD_273,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHANKARLAL GULABCHAND AND COMAPANY,PERNOD_273,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHANKARLAL GULABCHAND AND COMAPANY,PERNOD_273,LI,Not Applicable,Not Applicable,LI_UOM,per,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHANKARLAL GULABCHAND AND COMAPANY,PERNOD_273,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHREE MADHAV TRADERS,PERNOD_277,LI,State Haryana,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHREE MADHAV TRADERS,PERNOD_277,LI,Not Applicable,eighty one thousand one hunderd,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHREE MADHAV TRADERS,PERNOD_277,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+SHREE MADHAV TRADERS,PERNOD_277,LI,Not Applicable,Not Applicable,LI_itemDescription,Name of product,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+SHREE MADHAV TRADERS,PERNOD_277,LI,Not Applicable,Not Applicable,LI_UOM,UNIT,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHREE MADHAV TRADERS,PERNOD_277,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN CODE,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHREE MADHAV TRADERS,PERNOD_277,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHREE MADHAV TRADERS,PERNOD_277,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHREE MADHAV TRADERS,PERNOD_277,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHREE MADHAV TRADERS,PERNOD_277,LI,Not Applicable,Not Applicable,LI_taxAmount,N/Tax,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHREE MADHAV TRADERS,PERNOD_277,LI,Not Applicable,Not Applicable,LI_itemValue,Non taxable,8,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHREE MADHAV TRADERS,PERNOD_277,LI,Not Applicable,Not Applicable,Margin,Margin,9,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHREE MADHAV TRADERS,PERNOD_277,LI,Not Applicable,Not Applicable,LI_itemValue,Taxable value,10,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHRI KARANI CHEMICALS,PERNOD_280,LI,Buyer,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHRI KARANI CHEMICALS,PERNOD_280,LI,Not Applicable,Amount chargeble (in words),Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHRI KARANI CHEMICALS,PERNOD_280,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+SHRI KARANI CHEMICALS,PERNOD_280,LI,Not Applicable,Not Applicable,Marks & Nos/,Marks & Nos/,1,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHRI KARANI CHEMICALS,PERNOD_280,LI,Not Applicable,Not Applicable,No & kind,No. & kind,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHRI KARANI CHEMICALS,PERNOD_280,LI,Not Applicable,Not Applicable,LI_itemDescription,DESCRIPTION OF GOODS,3,Not Applicable,Not Applicable,MULTI,LEFT,LEFT,NONE
+SHRI KARANI CHEMICALS,PERNOD_280,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHRI KARANI CHEMICALS,PERNOD_280,LI,Not Applicable,Not Applicable,LI_taxAmount,GST,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHRI KARANI CHEMICALS,PERNOD_280,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHRI KARANI CHEMICALS,PERNOD_280,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHRI KARANI CHEMICALS,PERNOD_280,LI,Not Applicable,Not Applicable,LI_UOM,per,8,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHRI KARANI CHEMICALS,PERNOD_280,LI,Not Applicable,Not Applicable,LI_discountRate,Disc %,9,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SHRI KARANI CHEMICALS,PERNOD_280,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,10,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SKANEM INTERLABELS INDUSTRIES PVT LTD.,PERNOD_283,LI,OAKEN GOLD BOTTLING,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SKANEM INTERLABELS INDUSTRIES PVT LTD.,PERNOD_283,LI,Not Applicable,OUTPUT IGST,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SKANEM INTERLABELS INDUSTRIES PVT LTD.,PERNOD_283,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+SKANEM INTERLABELS INDUSTRIES PVT LTD.,PERNOD_283,LI,Not Applicable,Not Applicable,LI_itemDescription,DESCRIPTION OF GOODS,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+SKANEM INTERLABELS INDUSTRIES PVT LTD.,PERNOD_283,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SKANEM INTERLABELS INDUSTRIES PVT LTD.,PERNOD_283,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SKANEM INTERLABELS INDUSTRIES PVT LTD.,PERNOD_283,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SKANEM INTERLABELS INDUSTRIES PVT LTD.,PERNOD_283,LI,Not Applicable,Not Applicable,LI_UOM,per,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SKANEM INTERLABELS INDUSTRIES PVT LTD.,PERNOD_283,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRI BALAJI ENTERPRISES,PERNOD_286,LI,PRODUCT NAME,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRI BALAJI ENTERPRISES,PERNOD_286,LI,Not Applicable,BANK DETAILS,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRI BALAJI ENTERPRISES,PERNOD_286,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+SRI BALAJI ENTERPRISES,PERNOD_286,LI,Not Applicable,Not Applicable,LI_itemQuantity,SIZE,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+SRI BALAJI ENTERPRISES,PERNOD_286,LI,Not Applicable,Not Applicable,LI_itemQuantity,BOX/BAGS,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRI BALAJI ENTERPRISES,PERNOD_286,LI,Not Applicable,Not Applicable,LI_itemQuantity,PKG,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRI BALAJI ENTERPRISES,PERNOD_286,LI,Not Applicable,Not Applicable,LI_itemQuantity,BOTTLES,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRI BALAJI ENTERPRISES,PERNOD_286,LI,Not Applicable,Not Applicable,LI_unitPrice,RATE,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRI BALAJI ENTERPRISES,PERNOD_286,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRI BALAJI ENTERPRISES,PERNOD_286,LI,Not Applicable,Not Applicable,LI_itemValue,Non Taxable,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRI BALAJI ENTERPRISES,PERNOD_286,LI,Not Applicable,Not Applicable,LI_itemValue,Taxable,8,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRI BALAJI ENTERPRISES,PERNOD_286,LI,Not Applicable,Not Applicable,LI_CGSTAmount,CGST 9%,9,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRI BALAJI ENTERPRISES,PERNOD_286,LI,Not Applicable,Not Applicable,LI_SGSTAmount,SGST 9%,10,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRI BALAJI ENTERPRISES,PERNOD_286,LI,Not Applicable,Not Applicable,LI_itemValue,TOTAL,11,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRS THERMAX LIMITED,PERNOD_335,LI,Billed to,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRS THERMAX LIMITED,PERNOD_335,LI,Not Applicable,Totals c/o,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRS THERMAX LIMITED,PERNOD_335,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+SRS THERMAX LIMITED,PERNOD_335,LI,Not Applicable,Not Applicable,LI_itemDescription,DESCRIPTION OF GOODS,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+SRS THERMAX LIMITED,PERNOD_335,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRS THERMAX LIMITED,PERNOD_335,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRS THERMAX LIMITED,PERNOD_335,LI,Not Applicable,Not Applicable,LI_UOM,Uni,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRS THERMAX LIMITED,PERNOD_335,LI,Not Applicable,Not Applicable,LI_unitPrice,List Price,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRS THERMAX LIMITED,PERNOD_335,LI,Not Applicable,Not Applicable,LI_discountAmount,Disc/,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRS THERMAX LIMITED,PERNOD_335,LI,Not Applicable,Not Applicable,LI_discountAmount,T.Disc,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRS THERMAX LIMITED,PERNOD_335,LI,Not Applicable,Not Applicable,LI_unitPrice,Price,8,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRS THERMAX LIMITED,PERNOD_335,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,9,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRS THERMAX LIMITED,PERNOD_335,LI,Not Applicable,Not Applicable,LI_itemValue,Tot. Amount,10,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SABACCHUS DISTILLERY PRIVATE LIMITED,PERNOD_264,LI,Product wise details,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SABACCHUS DISTILLERY PRIVATE LIMITED,PERNOD_264,LI,Not Applicable,Remark,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SABACCHUS DISTILLERY PRIVATE LIMITED,PERNOD_264,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+SABACCHUS DISTILLERY PRIVATE LIMITED,PERNOD_264,LI,Not Applicable,Not Applicable,LI_itemDescription,Product description,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+SABACCHUS DISTILLERY PRIVATE LIMITED,PERNOD_264,LI,Not Applicable,Not Applicable,LI_HSNCode,HSE/SAC,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SABACCHUS DISTILLERY PRIVATE LIMITED,PERNOD_264,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SABACCHUS DISTILLERY PRIVATE LIMITED,PERNOD_264,LI,Not Applicable,Not Applicable,LI_UOM,unit,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SABACCHUS DISTILLERY PRIVATE LIMITED,PERNOD_264,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SABACCHUS DISTILLERY PRIVATE LIMITED,PERNOD_264,LI,Not Applicable,Not Applicable,LI_itemValue,Total sale,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SABACCHUS DISTILLERY PRIVATE LIMITED,PERNOD_264,LI,Not Applicable,Not Applicable,LI_discountAmount,Disc,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SABACCHUS DISTILLERY PRIVATE LIMITED,PERNOD_264,LI,Not Applicable,Not Applicable,LI_itemValue,Taxable,8,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SABACCHUS DISTILLERY PRIVATE LIMITED,PERNOD_264,LI,Not Applicable,Not Applicable,LI_CGSTAmount,CGST,9,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SABACCHUS DISTILLERY PRIVATE LIMITED,PERNOD_264,LI,Not Applicable,Not Applicable,LI_SGSTAmount,SGST,10,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SABACCHUS DISTILLERY PRIVATE LIMITED,PERNOD_264,LI,Not Applicable,Not Applicable,LI_IGSTAmount,IGST,11,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SUPER TRADERS,PERNOD_332,LI,M/S PERNOD RECARD INDIA,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SUPER TRADERS,PERNOD_332,LI,Not Applicable,Composition taxable person ,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SUPER TRADERS,PERNOD_332,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+SUPER TRADERS,PERNOD_332,LI,Not Applicable,Not Applicable,LI_itemDescription,item Desc,2,YES,Not Applicable,MULTI,NONE,NONE,NONE
+SUPER TRADERS,PERNOD_332,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SUPER TRADERS,PERNOD_332,LI,Not Applicable,Not Applicable,LI_itemQuantity,"Rept,Qty",4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SUPER TRADERS,PERNOD_332,LI,Not Applicable,Not Applicable,Ratte/Bottel,Ratte/Bottel,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SUPER TRADERS,PERNOD_332,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+TULISON CONTAINERS,PERNOD_325,LI,Billed to,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+TULISON CONTAINERS,PERNOD_325,LI,Not Applicable,partition,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+TULISON CONTAINERS,PERNOD_325,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+TULISON CONTAINERS,PERNOD_325,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of goods,1,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+TULISON CONTAINERS,PERNOD_325,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+TULISON CONTAINERS,PERNOD_325,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,3,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+TULISON CONTAINERS,PERNOD_325,LI,Not Applicable,Not Applicable,LI_UOM,Unit,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+TULISON CONTAINERS,PERNOD_325,LI,Not Applicable,Not Applicable,LI_unitPrice,price,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+TULISON CONTAINERS,PERNOD_325,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+VIRAJ ALCOHOLS & ALLIED INDUSTRIES LTD,PERNOD_313,LI,pernod ricard india,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VIRAJ ALCOHOLS & ALLIED INDUSTRIES LTD,PERNOD_313,LI,Not Applicable,Amount chargeble,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VIRAJ ALCOHOLS & ALLIED INDUSTRIES LTD,PERNOD_313,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+MUSIC PRODUCTS AND ACCESSORIES PVT LTD,PERNOD_9021,LI,pernor record india pvt ltd,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MUSIC PRODUCTS AND ACCESSORIES PVT LTD,PERNOD_9021,LI,Not Applicable,summary,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MUSIC PRODUCTS AND ACCESSORIES PVT LTD,PERNOD_9021,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+MUSIC PRODUCTS AND ACCESSORIES PVT LTD,PERNOD_9021,LI,Not Applicable,Not Applicable,LI_itemCode,catalog no,1,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MUSIC PRODUCTS AND ACCESSORIES PVT LTD,PERNOD_9021,LI,Not Applicable,Not Applicable,Title,Title,2,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+MUSIC PRODUCTS AND ACCESSORIES PVT LTD,PERNOD_9021,LI,Not Applicable,Not Applicable,MRP,MRP,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+MUSIC PRODUCTS AND ACCESSORIES PVT LTD,PERNOD_9021,LI,Not Applicable,Not Applicable,LI_unitPrice,Net rate,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+MUSIC PRODUCTS AND ACCESSORIES PVT LTD,PERNOD_9021,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty UQC,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+MUSIC PRODUCTS AND ACCESSORIES PVT LTD,PERNOD_9021,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MUSIC PRODUCTS AND ACCESSORIES PVT LTD,PERNOD_9021,LI,Not Applicable,Not Applicable,LI_itemValue,Basic amt,7,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MUSIC PRODUCTS AND ACCESSORIES PVT LTD,PERNOD_9021,LI,Not Applicable,Not Applicable,LI_IGSTRate,IGST%,8,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MUSIC PRODUCTS AND ACCESSORIES PVT LTD,PERNOD_9021,LI,Not Applicable,Not Applicable,LI_IGSTAmount,IGST,9,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+MUSIC PRODUCTS AND ACCESSORIES PVT LTD,PERNOD_9021,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,10,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+NAKUL SALES CORPORATION - NAGPUR,PERNOD_6090,LI,PERNOD RECOD INDIA PVT LTD,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+NAKUL SALES CORPORATION - NAGPUR,PERNOD_6090,LI,Not Applicable,Amount chargeable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+NAKUL SALES CORPORATION - NAGPUR,PERNOD_6090,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+NAKUL SALES CORPORATION - NAGPUR,PERNOD_6090,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of goods,1,Not Applicable,Not Applicable,MULTI,MIDDLE,Left,1
+NAKUL SALES CORPORATION - NAGPUR,PERNOD_6090,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+NAKUL SALES CORPORATION - NAGPUR,PERNOD_6090,LI,Not Applicable,Not Applicable,LI_taxAmount,GST,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+NAKUL SALES CORPORATION - NAGPUR,PERNOD_6090,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+NAKUL SALES CORPORATION - NAGPUR,PERNOD_6090,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+NAKUL SALES CORPORATION - NAGPUR,PERNOD_6090,LI,Not Applicable,Not Applicable,LI_UOM,per,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+NAKUL SALES CORPORATION - NAGPUR,PERNOD_6090,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRINT WORLD,PERNOD_6094,LI,Pernod Ricard India P. Ltd,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRINT WORLD,PERNOD_6094,LI,Not Applicable,MARRIOT,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRINT WORLD,PERNOD_6094,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+PRINT WORLD,PERNOD_6094,LI,Not Applicable,Not Applicable,LI_itemDescription,DESCRIPTION OF GOOS,1,Not Applicable,Not Applicable,MULTI,MIDDLE,Left,1
+PRINT WORLD,PERNOD_6094,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRINT WORLD,PERNOD_6094,LI,Not Applicable,Not Applicable,LI_itemQuantity,QTY,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRINT WORLD,PERNOD_6094,LI,Not Applicable,Not Applicable,LI_unitPrice,RATE,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRINT WORLD,PERNOD_6094,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRINT WORLD,PERNOD_6094,LI,Not Applicable,Not Applicable,LI_taxAmount,GST,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRODIGY COMMUNICATIONS AND MARKETING P L,PERNOD_6095,LI,Details of reciever/billed to,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRODIGY COMMUNICATIONS AND MARKETING P L,PERNOD_6095,LI,Not Applicable,Bank details,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRODIGY COMMUNICATIONS AND MARKETING P L,PERNOD_6095,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+PRODIGY COMMUNICATIONS AND MARKETING P L,PERNOD_6095,LI,Not Applicable,Not Applicable,LI_itemDescription,Brand,1,Not Applicable,Not Applicable,MULTI,MIDDLE,Left,1
+PRODIGY COMMUNICATIONS AND MARKETING P L,PERNOD_6095,LI,Not Applicable,Not Applicable,LI_HSNCode,item,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRODIGY COMMUNICATIONS AND MARKETING P L,PERNOD_6095,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRODIGY COMMUNICATIONS AND MARKETING P L,PERNOD_6095,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRODIGY COMMUNICATIONS AND MARKETING P L,PERNOD_6095,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRODIGY COMMUNICATIONS AND MARKETING P L,PERNOD_6095,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRODIGY COMMUNICATIONS AND MARKETING P L,PERNOD_6095,LI,Not Applicable,Not Applicable,LI_CGSTAmount,CGST,7,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRODIGY COMMUNICATIONS AND MARKETING P L,PERNOD_6095,LI,Not Applicable,Not Applicable,LI_SGSTAmount,SGST,8,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRODIGY COMMUNICATIONS AND MARKETING P L,PERNOD_6095,LI,Not Applicable,Not Applicable,LI_IGSTAmount,IGST,9,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+PRODIGY COMMUNICATIONS AND MARKETING P L,PERNOD_6095,LI,Not Applicable,Not Applicable,LI_itemValue,Total,10,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SOCIAL MONKEY,PERNOD_6077,LI,Pernod ricard india,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SOCIAL MONKEY,PERNOD_6077,LI,Not Applicable,For social monkey,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SOCIAL MONKEY,PERNOD_6077,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+SOCIAL MONKEY,PERNOD_6077,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/,1,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SOCIAL MONKEY,PERNOD_6077,LI,Not Applicable,Not Applicable,LI_itemDescription,Item description,2,Not Applicable,Not Applicable,MULTI,LEFT,LEFT,NONE
+SOCIAL MONKEY,PERNOD_6077,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SOCIAL MONKEY,PERNOD_6077,LI,Not Applicable,Not Applicable,LI_UOM,UQC,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SOCIAL MONKEY,PERNOD_6077,LI,Not Applicable,Not Applicable,Delivery,Delivery,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SOCIAL MONKEY,PERNOD_6077,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SOCIAL MONKEY,PERNOD_6077,LI,Not Applicable,Not Applicable,LI_itemValue,Taxable,7,YES,Not Applicable,Not Applicable,LEFT,RIGHT,1
+SOCIAL MONKEY,PERNOD_6077,LI,Not Applicable,Not Applicable,LI_CGSTAmount,CGST,8,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SOCIAL MONKEY,PERNOD_6077,LI,Not Applicable,Not Applicable,LI_SGSTAmount,S/UGST,9,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SOCIAL MONKEY,PERNOD_6077,LI,Not Applicable,Not Applicable,LI_IGSTAmount,IGST,10,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SOCIAL MONKEY,PERNOD_6077,LI,Not Applicable,Not Applicable,LI_itemValue,Total,11,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,1
+SPARKLE ENTERPRISE,PERNOD_6078,LI,Bill to,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SPARKLE ENTERPRISE,PERNOD_6078,LI,Not Applicable,in words,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SPARKLE ENTERPRISE,PERNOD_6078,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+SPARKLE ENTERPRISE,PERNOD_6078,LI,Not Applicable,Not Applicable,LI_itemDescription,HSN/SAC,1,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SPARKLE ENTERPRISE,PERNOD_6078,LI,Not Applicable,Not Applicable,LI_HSNCode,item description,2,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+SPARKLE ENTERPRISE,PERNOD_6078,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SPARKLE ENTERPRISE,PERNOD_6078,LI,Not Applicable,Not Applicable,LI_unitPrice,Delivery,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SPARKLE ENTERPRISE,PERNOD_6078,LI,Not Applicable,Not Applicable,LI_itemValue,Rate,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SPARKLE ENTERPRISE,PERNOD_6078,LI,Not Applicable,Not Applicable,LI_itemValue,IGST,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SPARKLE ENTERPRISE,PERNOD_6078,LI,Not Applicable,Not Applicable,LI_itemValue,Total amount,7,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+AAKRITI SIGNS,PERNOD_6501,LI,Details of receiver,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+AAKRITI SIGNS,PERNOD_6501,LI,Not Applicable,Totals,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+AAKRITI SIGNS,PERNOD_6501,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+AAKRITI SIGNS,PERNOD_6501,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/,1,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+AAKRITI SIGNS,PERNOD_6501,LI,Not Applicable,Not Applicable,LI_itemDescription,Description,2,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+AAKRITI SIGNS,PERNOD_6501,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+AAKRITI SIGNS,PERNOD_6501,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+AAKRITI SIGNS,PERNOD_6501,LI,Not Applicable,Not Applicable,LI_itemValue,Taxable,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+AAKRITI SIGNS,PERNOD_6501,LI,Not Applicable,Not Applicable,LI_SGSTAmount,SGST,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+AAKRITI SIGNS,PERNOD_6501,LI,Not Applicable,Not Applicable,LI_CGSTAmount,CGST,7,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+AAKRITI SIGNS,PERNOD_6501,LI,Not Applicable,Not Applicable,LI_IGSTAmount,IGST,8,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+AAKRITI SIGNS,PERNOD_6501,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,9,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+BRANDZIA SERVICES PRIVATE LIMITED,PERNOD_6016,LI,Pernod ricard india,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+BRANDZIA SERVICES PRIVATE LIMITED,PERNOD_6016,LI,Not Applicable,Remarks,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+BRANDZIA SERVICES PRIVATE LIMITED,PERNOD_6016,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+BRANDZIA SERVICES PRIVATE LIMITED,PERNOD_6016,LI,Not Applicable,Not Applicable,LI_itemDescription,DESCRIPTION,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+BRANDZIA SERVICES PRIVATE LIMITED,PERNOD_6016,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+BRANDZIA SERVICES PRIVATE LIMITED,PERNOD_6016,LI,Not Applicable,Not Applicable,LI_UOM,UOM,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+BRANDZIA SERVICES PRIVATE LIMITED,PERNOD_6016,LI,Not Applicable,Not Applicable,LI_itemQuantity,QTY,4,Not Applicable,Not Applicable,Not Applicable,MIDDLE,LEFT,0.5
+BRANDZIA SERVICES PRIVATE LIMITED,PERNOD_6016,LI,Not Applicable,Not Applicable,LI_unitPrice,UNIT RATE,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+BRANDZIA SERVICES PRIVATE LIMITED,PERNOD_6016,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+BRANDZIA SERVICES PRIVATE LIMITED,PERNOD_6016,LI,Not Applicable,Not Applicable,LI_CGSTAmount,CGST,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+BRANDZIA SERVICES PRIVATE LIMITED,PERNOD_6016,LI,Not Applicable,Not Applicable,LI_SGSTAmount,SGST,8,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+BRANDZIA SERVICES PRIVATE LIMITED,PERNOD_6016,LI,Not Applicable,Not Applicable,LI_IGSTAmount,IGST,9,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Pernod ricard india,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Total bill value ,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Not Applicable,LI_itemDescription,Activities/Particulars,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Not Applicable,LI_itemDescription,Category/,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Not Applicable,LI_itemDescription,Brand,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Not Applicable,LI_UOM,Unit,4,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Not Applicable,LI_UOM,size,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Not Applicable,LI_itemValue,Total,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,8,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Not Applicable,LI_itemValue,Base amount,9,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Not Applicable,LI_itemValue,Taxable ,10,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Not Applicable,LI_CGSTAmount,CGST,11,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Not Applicable,LI_SGSTAmount,SGST,12,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CONCERN EVENTS & PROMOTIONS (P) LTD.,PERNOD_6019,LI,Not Applicable,Not Applicable,Head Total,Head Total,13,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+ AKSHAY KUMAR ENTERPRISES                        ,PERNOD_106,LI,Bill to party,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+ AKSHAY KUMAR ENTERPRISES                        ,PERNOD_106,LI,Not Applicable,Total amount befor tax,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+ AKSHAY KUMAR ENTERPRISES                        ,PERNOD_106,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+ AKSHAY KUMAR ENTERPRISES                        ,PERNOD_106,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of goods,1,Not Applicable,Not Applicable,MULTI,LEFT,MIDDLE,1
+ AKSHAY KUMAR ENTERPRISES                        ,PERNOD_106,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN CODE,2,Not Applicable,Not Applicable,Not Applicable,LEFT,MIDDLE,1
+ AKSHAY KUMAR ENTERPRISES                        ,PERNOD_106,LI,Not Applicable,Not Applicable,LI_itemQuantity,QUANTITY,3,Not Applicable,Not Applicable,Not Applicable,LEFT,MIDDLE,1
+ AKSHAY KUMAR ENTERPRISES                        ,PERNOD_106,LI,Not Applicable,Not Applicable,LI_unitPrice,RATE,4,Not Applicable,Not Applicable,Not Applicable,LEFT,MIDDLE,1
+ AKSHAY KUMAR ENTERPRISES                        ,PERNOD_106,LI,Not Applicable,Not Applicable,LI_itemValue,TAXABLE VALUE,5,YES,Not Applicable,Not Applicable,LEFT,MIDDLE,1
+ AKSHAY KUMAR ENTERPRISES                        ,PERNOD_106,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT,6,Not Applicable,Not Applicable,Not Applicable,LEFT,MIDDLE,1
+AGARWAL PACKERS AND MOVERS LTD.,PERNOD_5003,LI,GC NO:,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+AGARWAL PACKERS AND MOVERS LTD.,PERNOD_5003,LI,Not Applicable,Gross Freight,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+AGARWAL PACKERS AND MOVERS LTD.,PERNOD_5003,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+AGARWAL PACKERS AND MOVERS LTD.,PERNOD_5003,LI,Not Applicable,Not Applicable,LI_itemDescription,TRANSPORTATION OF USED HOUSE HOLD GOOD FOR PERSONAL USE (UTA),1,YES,Not Applicable,MULTI,MIDDLE,LEFT,0.2
+AGARWAL PACKERS AND MOVERS LTD.,PERNOD_5003,LI,Not Applicable,Not Applicable,LI_itemValue,Charges,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+TRIO TALENT SEARCH,PERNOD_5179,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+TRIO TALENT SEARCH,PERNOD_5179,LI,Not Applicable,Gross Freight,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+TRIO TALENT SEARCH,PERNOD_5179,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+TRIO TALENT SEARCH,PERNOD_5179,LI,Not Applicable,Not Applicable,LI_itemDescription,TRANSPORTATION OF USED HOUSE HOLD GOOD FOR PERSONAL USE (UTA),1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,0.2
+TRIO TALENT SEARCH,PERNOD_5179,LI,Not Applicable,Not Applicable,LI_itemValue,Charges,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+BLUE DART EXPRESS LIMITED,PERNOD_5016,LI,Shipment Details,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+BLUE DART EXPRESS LIMITED,PERNOD_5016,LI,Not Applicable,Total,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+BLUE DART EXPRESS LIMITED,PERNOD_5016,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+BLUE DART EXPRESS LIMITED,PERNOD_5016,LI,Not Applicable,Not Applicable,LI_itemDescription,Dest,1,YES,Not Applicable,MULTI,MIDDLE,LEFT,0.8
+BLUE DART EXPRESS LIMITED,PERNOD_5016,LI,Not Applicable,Not Applicable,LI_itemQuantity,Chrg,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+BLUE DART EXPRESS LIMITED,PERNOD_5016,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CANON INDIA PVT LTD,PERNOD_5019,LI,Place of supply,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+CANON INDIA PVT LTD,PERNOD_5019,LI,Not Applicable,Total Basic Amount-,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+CANON INDIA PVT LTD,PERNOD_5019,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+CANON INDIA PVT LTD,PERNOD_5019,LI,Not Applicable,Not Applicable,LI_itemDescription,Description,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+CANON INDIA PVT LTD,PERNOD_5019,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CANON INDIA PVT LTD,PERNOD_5019,LI,Not Applicable,Not Applicable,LI_itemQuantity,Net,3,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,0.5
+CANON INDIA PVT LTD,PERNOD_5019,LI,Not Applicable,Not Applicable,LI_unitPrice,Unit,4,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,0.4
+CANON INDIA PVT LTD,PERNOD_5019,LI,Not Applicable,Not Applicable,LI_itemValue,Basic,5,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,0.3
+FACILITY AND MAINTENANCE SERVICES PVT.LTD,PERNOD_5045,LI,DETAILS OF THIS BILL,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FACILITY AND MAINTENANCE SERVICES PVT.LTD,PERNOD_5045,LI,Not Applicable,Sub Total,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FACILITY AND MAINTENANCE SERVICES PVT.LTD,PERNOD_5045,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+FACILITY AND MAINTENANCE SERVICES PVT.LTD,PERNOD_5045,LI,Not Applicable,Not Applicable,LI_itemDescription,Description,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+FACILITY AND MAINTENANCE SERVICES PVT.LTD,PERNOD_5045,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate / Sq.ft,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+FACILITY AND MAINTENANCE SERVICES PVT.LTD,PERNOD_5045,LI,Not Applicable,Not Applicable,LI_itemValue,Net Amount,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FICCI RESEARCH & ANALYSIS CENTRE,PERNOD_5046,LI,State Name,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FICCI RESEARCH & ANALYSIS CENTRE,PERNOD_5046,LI,Not Applicable,IGST,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FICCI RESEARCH & ANALYSIS CENTRE,PERNOD_5046,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+FICCI RESEARCH & ANALYSIS CENTRE,PERNOD_5046,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,2
+FICCI RESEARCH & ANALYSIS CENTRE,PERNOD_5046,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+FICCI RESEARCH & ANALYSIS CENTRE,PERNOD_5046,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,3,YES,Not Applicable,MULTI,NONE,NONE,NONE
+FICCI RESEARCH & ANALYSIS CENTRE,PERNOD_5046,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+FICCI RESEARCH & ANALYSIS CENTRE,PERNOD_5046,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+PC SOLUTIONS P LTD,PERNOD_5111,LI,State Code,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+PC SOLUTIONS P LTD,PERNOD_5111,LI,Not Applicable,Total Amount ,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+PC SOLUTIONS P LTD,PERNOD_5111,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+PC SOLUTIONS P LTD,PERNOD_5111,LI,Not Applicable,Not Applicable,LI_itemDescription,Item Code / Product Description,1,YES,Not Applicable,MULTI,MIDDLE,LEFT,0.2
+PC SOLUTIONS P LTD,PERNOD_5111,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN / SAC,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+PC SOLUTIONS P LTD,PERNOD_5111,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+PC SOLUTIONS P LTD,PERNOD_5111,LI,Not Applicable,Not Applicable,LI_unitPrice,Unit Price,4,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,0.2
+PC SOLUTIONS P LTD,PERNOD_5111,LI,Not Applicable,Not Applicable,LI_itemValue,Total Befor,5,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+CITY PRIDE TOURS & TRAVELS,PERNOD_5026,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+CITY PRIDE TOURS & TRAVELS,PERNOD_5026,LI,Not Applicable,Rupees in words,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+CITY PRIDE TOURS & TRAVELS,PERNOD_5026,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+CITY PRIDE TOURS & TRAVELS,PERNOD_5026,LI,Not Applicable,Not Applicable,LI_itemCode,BILL NO,1,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+CITY PRIDE TOURS & TRAVELS,PERNOD_5026,LI,Not Applicable,Not Applicable,LI_itemDescription,VEHICLE DETAILS,2,YES,Not Applicable,MULTI,MIDDLE,LEFT,0.4
+CITY PRIDE TOURS & TRAVELS,PERNOD_5026,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+GURBAX TOURIST CAR & TAXI SERVICE,PERNOD_5058,LI,Guest,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+GURBAX TOURIST CAR & TAXI SERVICE,PERNOD_5058,LI,Not Applicable,approved by,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+GURBAX TOURIST CAR & TAXI SERVICE,PERNOD_5058,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+GURBAX TOURIST CAR & TAXI SERVICE,PERNOD_5058,LI,Not Applicable,Not Applicable,LI_itemDescription,Particulars,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+GURBAX TOURIST CAR & TAXI SERVICE,PERNOD_5058,LI,Not Applicable,Not Applicable,LI_unitPrice,Tariff,2,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,0.5
+GURBAX TOURIST CAR & TAXI SERVICE,PERNOD_5058,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,3,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,0.5
+HAWKS EYE SECURITYSERVICES PVT.LTD,PERNOD_5062,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+HAWKS EYE SECURITYSERVICES PVT.LTD,PERNOD_5062,LI,Not Applicable,Sub Total,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+HAWKS EYE SECURITYSERVICES PVT.LTD,PERNOD_5062,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+HAWKS EYE SECURITYSERVICES PVT.LTD,PERNOD_5062,LI,Not Applicable,Not Applicable,LI_itemDescription,Particulars,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,0.5
+HAWKS EYE SECURITYSERVICES PVT.LTD,PERNOD_5062,LI,Not Applicable,Not Applicable,LI_itemQuantity,No.off,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+HAWKS EYE SECURITYSERVICES PVT.LTD,PERNOD_5062,LI,Not Applicable,Not Applicable,LI_unitPrice,Basic Rate,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+HAWKS EYE SECURITYSERVICES PVT.LTD,PERNOD_5062,LI,Not Applicable,Not Applicable,LI_itemValue,Total Amount,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+AKSHAY TOURS AND TRAVELS,PERNOD_5004,LI,Customer GSTIN,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+AKSHAY TOURS AND TRAVELS,PERNOD_5004,LI,Not Applicable,Total Rs.,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+AKSHAY TOURS AND TRAVELS,PERNOD_5004,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+AKSHAY TOURS AND TRAVELS,PERNOD_5004,LI,Not Applicable,Not Applicable,LI_itemDescription,Vehicle used on/from____ LOKNOW L LOCAL,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+AKSHAY TOURS AND TRAVELS,PERNOD_5004,LI,Not Applicable,Not Applicable,LI_itemValue,Total Amount,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+HOTEL LE GRANDE,PERNOD_5066,LI,Bill Date,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+HOTEL LE GRANDE,PERNOD_5066,LI,Not Applicable,Sub Total,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+HOTEL LE GRANDE,PERNOD_5066,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+HOTEL LE GRANDE,PERNOD_5066,LI,Not Applicable,Not Applicable,LI_itemDescription,ITEMNAME,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+HOTEL LE GRANDE,PERNOD_5066,LI,Not Applicable,Not Applicable,LI_itemQuantity,QTY,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+HOTEL LE GRANDE,PERNOD_5066,LI,Not Applicable,Not Applicable,LI_unitPrice,RATE,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+HOTEL LE GRANDE,PERNOD_5066,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+L M ROAD CARRIERS.pdf,PERNOD_5090,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+L M ROAD CARRIERS.pdf,PERNOD_5090,LI,Not Applicable,Total Weight,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+L M ROAD CARRIERS.pdf,PERNOD_5090,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+L M ROAD CARRIERS.pdf,PERNOD_5090,LI,Not Applicable,Not Applicable,LI_itemCode,GR NO,1,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+L M ROAD CARRIERS.pdf,PERNOD_5090,LI,Not Applicable,Not Applicable,GR DATE,GR DATE,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+L M ROAD CARRIERS.pdf,PERNOD_5090,LI,Not Applicable,Not Applicable,LI_itemDescription,Description,3,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+L M ROAD CARRIERS.pdf,PERNOD_5090,LI,Not Applicable,Not Applicable,LI_itemDescription,Destination,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+L M ROAD CARRIERS.pdf,PERNOD_5090,LI,Not Applicable,Not Applicable,LI_itemQuantity,Pkgs,6,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+L M ROAD CARRIERS.pdf,PERNOD_5090,LI,Not Applicable,Not Applicable,LI_freightCharges,Freight,7,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+L M ROAD CARRIERS.pdf,PERNOD_5090,LI,Not Applicable,Not Applicable,Pickup,Pickup,8,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+L M ROAD CARRIERS.pdf,PERNOD_5090,LI,Not Applicable,Not Applicable,LI_itemValue,Total,9,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+VIMTA LABS LIMITED.pdf,PERNOD_5189,LI,Technical Testing and Analysis Services,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VIMTA LABS LIMITED.pdf,PERNOD_5189,LI,Not Applicable,Total Before Taxes,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+VIMTA LABS LIMITED.pdf,PERNOD_5189,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+VIMTA LABS LIMITED.pdf,PERNOD_5189,LI,Not Applicable,Not Applicable,LI_itemDescription,Description,1,Not Applicable,Not Applicable,MULTI,LEFT,MIDDLE,1
+VIMTA LABS LIMITED.pdf,PERNOD_5189,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+VIMTA LABS LIMITED.pdf,PERNOD_5189,LI,Not Applicable,Not Applicable,LI_unitPrice,RATE(Rs.),3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+VIMTA LABS LIMITED.pdf,PERNOD_5189,LI,Not Applicable,Not Applicable,LI_itemValue,Amount(Rs),4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+TEJUS TOURS & TRAVELS.pdf,PERNOD_5176,LI,Journey Charges,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+TEJUS TOURS & TRAVELS.pdf,PERNOD_5176,LI,Not Applicable,Trip Amt,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+TEJUS TOURS & TRAVELS.pdf,PERNOD_5176,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+TEJUS TOURS & TRAVELS.pdf,PERNOD_5176,LI,Not Applicable,Not Applicable,LI_itemDescription,CloseKM,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+TEJUS TOURS & TRAVELS.pdf,PERNOD_5176,LI,Not Applicable,Not Applicable,LI_itemValue,Trip Amt,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRV DAMAGE PREVENTIONS PRIVATE LIMITED.pdf,PERNOD_5164,LI,Order No,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRV DAMAGE PREVENTIONS PRIVATE LIMITED.pdf,PERNOD_5164,LI,Not Applicable,Add IGST,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRV DAMAGE PREVENTIONS PRIVATE LIMITED.pdf,PERNOD_5164,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+SRV DAMAGE PREVENTIONS PRIVATE LIMITED.pdf,PERNOD_5164,LI,Not Applicable,Not Applicable,LI_itemDescription,Description Of Goods,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+SRV DAMAGE PREVENTIONS PRIVATE LIMITED.pdf,PERNOD_5164,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRV DAMAGE PREVENTIONS PRIVATE LIMITED.pdf,PERNOD_5164,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRV DAMAGE PREVENTIONS PRIVATE LIMITED.pdf,PERNOD_5164,LI,Not Applicable,Not Applicable,LI_UOM,Unit,4,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+SRV DAMAGE PREVENTIONS PRIVATE LIMITED.pdf,PERNOD_5164,LI,Not Applicable,Not Applicable,LI_unitPrice,Price,5,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SRV DAMAGE PREVENTIONS PRIVATE LIMITED.pdf,PERNOD_5164,LI,Not Applicable,Not Applicable,LI_itemValue,Amount(Rs),6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SGS INDIA PRIVATE LIMITED.pdf,PERNOD_5148,LI,Kind Attention,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SGS INDIA PRIVATE LIMITED.pdf,PERNOD_5148,LI,Not Applicable,audit conducted,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SGS INDIA PRIVATE LIMITED.pdf,PERNOD_5148,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+SGS INDIA PRIVATE LIMITED.pdf,PERNOD_5148,LI,Not Applicable,Not Applicable,LI_HSNCode,Item ,1,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SGS INDIA PRIVATE LIMITED.pdf,PERNOD_5148,LI,Not Applicable,Not Applicable,LI_itemDescription,Description,2,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+SGS INDIA PRIVATE LIMITED.pdf,PERNOD_5148,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SGS INDIA PRIVATE LIMITED.pdf,PERNOD_5148,LI,Not Applicable,Not Applicable,LI_UOM,UoM,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SGS INDIA PRIVATE LIMITED.pdf,PERNOD_5148,LI,Not Applicable,Not Applicable,LI_unitPrice,Unit Price,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+SGS INDIA PRIVATE LIMITED.pdf,PERNOD_5148,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S P PACKAGING INDUSTRIES PVT LTD.pdf,PERNOD_5140,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S P PACKAGING INDUSTRIES PVT LTD.pdf,PERNOD_5140,LI,Not Applicable,E Way Bill No,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S P PACKAGING INDUSTRIES PVT LTD.pdf,PERNOD_5140,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+S S P PACKAGING INDUSTRIES PVT LTD.pdf,PERNOD_5140,LI,Not Applicable,Not Applicable,LI_itemDescription,Description and Specification of Goods,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+S S P PACKAGING INDUSTRIES PVT LTD.pdf,PERNOD_5140,LI,Not Applicable,Not Applicable,LI_unitPrice,RATE (RS),2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+S S P PACKAGING INDUSTRIES PVT LTD.pdf,PERNOD_5140,LI,Not Applicable,Not Applicable,LI_itemValue,Total Price Of,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+S R INFOTECH.pdf,PERNOD_5138,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+S R INFOTECH.pdf,PERNOD_5138,LI,Not Applicable,SUBTOTAL,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+S R INFOTECH.pdf,PERNOD_5138,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+S R INFOTECH.pdf,PERNOD_5138,LI,Not Applicable,Not Applicable,LI_itemDescription,Description,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+S R INFOTECH.pdf,PERNOD_5138,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+S R INFOTECH.pdf,PERNOD_5138,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+S R INFOTECH.pdf,PERNOD_5138,LI,Not Applicable,Not Applicable,LI_unitPrice,UNIT PRICE,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+S R INFOTECH.pdf,PERNOD_5138,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+OM CAR RENTAL.pdf,PERNOD_5108,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+OM CAR RENTAL.pdf,PERNOD_5108,LI,Not Applicable,Duty Total,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+OM CAR RENTAL.pdf,PERNOD_5108,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+OM CAR RENTAL.pdf,PERNOD_5108,LI,Not Applicable,Not Applicable,Date,Date,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,0.7
+OM CAR RENTAL.pdf,PERNOD_5108,LI,Not Applicable,Not Applicable,LI_itemCode,Car No,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+OM CAR RENTAL.pdf,PERNOD_5108,LI,Not Applicable,Not Applicable,LI_itemDescription,Car Type,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+OM CAR RENTAL.pdf,PERNOD_5108,LI,Not Applicable,Not Applicable,LI_itemCode,Slip No,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+OM CAR RENTAL.pdf,PERNOD_5108,LI,Not Applicable,Not Applicable,Hours,Hours,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+OM CAR RENTAL.pdf,PERNOD_5108,LI,Not Applicable,Not Applicable,K.M ,K.M ,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+OM CAR RENTAL.pdf,PERNOD_5108,LI,Not Applicable,Not Applicable,Parkg,Parkg,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+OM CAR RENTAL.pdf,PERNOD_5108,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+NEXT VISION GRAPHICS.pdf,PERNOD_5105,LI,Place of Supply,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+NEXT VISION GRAPHICS.pdf,PERNOD_5105,LI,Not Applicable,GST Summary,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+NEXT VISION GRAPHICS.pdf,PERNOD_5105,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+NEXT VISION GRAPHICS.pdf,PERNOD_5105,LI,Not Applicable,Not Applicable,LI_itemDescription,Particulars,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,0.7
+NEXT VISION GRAPHICS.pdf,PERNOD_5105,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+NEXT VISION GRAPHICS.pdf,PERNOD_5105,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+NEXT VISION GRAPHICS.pdf,PERNOD_5105,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+NEW RAAT DEEN SERVICE.TIF,PERNOD_5104,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+NEW RAAT DEEN SERVICE.TIF,PERNOD_5104,LI,Not Applicable,Parking Charges,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+NEW RAAT DEEN SERVICE.TIF,PERNOD_5104,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+NEW RAAT DEEN SERVICE.TIF,PERNOD_5104,LI,Not Applicable,Not Applicable,LI_itemCode,Car No,1,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+NEW RAAT DEEN SERVICE.TIF,PERNOD_5104,LI,Not Applicable,Not Applicable,Date Of Use,Date Of Use,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+NEW RAAT DEEN SERVICE.TIF,PERNOD_5104,LI,Not Applicable,Not Applicable,LI_itemDescription,Car Type,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+NEW RAAT DEEN SERVICE.TIF,PERNOD_5104,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,4,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+AD-O-GRAPH,PERNOD_9000,LI,Tax Invoice/Challan,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+AD-O-GRAPH,PERNOD_9000,LI,Not Applicable,Rupees Seventeen Thousand Sixty One & Paise Fifty Eight Only,,,,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+AD-O-GRAPH,PERNOD_9000,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+AD-O-GRAPH,PERNOD_9000,LI,Not Applicable,Not Applicable,LI_itemDescription,Particulars of Item(s),1,YES,NONE,MULTI,MIDDLE,LEFT,0.5
+AD-O-GRAPH,PERNOD_9000,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN Code,2,YES,NONE,Not Applicable,NONE,NONE,NONE
+AD-O-GRAPH,PERNOD_9000,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,3,YES,NONE,Not Applicable,NONE,NONE,NONE
+AD-O-GRAPH,PERNOD_9000,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,4,YES,NONE,Not Applicable,NONE,NONE,NONE
+AD-O-GRAPH,PERNOD_9000,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,5,YES,NONE,Not Applicable,NONE,NONE,NONE
+CHANDRANI ENTERPRISE,PERNOD_9012,LI,PURCHASE ORDER NO.,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+CHANDRANI ENTERPRISE,PERNOD_9012,LI,Not Applicable,Rupees Seventeen Thousand Sixty One & Paise Fifty Eight Only,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+CHANDRANI ENTERPRISE,PERNOD_9012,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+CHANDRANI ENTERPRISE,PERNOD_9012,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,1,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+CHANDRANI ENTERPRISE,PERNOD_9012,LI,Not Applicable,Not Applicable,LI_itemDescription,DESCROPTION,2,Not Applicable,NONE,MULTI,MIDDLE,LEFT,0.5
+CHANDRANI ENTERPRISE,PERNOD_9012,LI,Not Applicable,Not Applicable,LI_itemQuantity,QTY,3,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+CHANDRANI ENTERPRISE,PERNOD_9012,LI,Not Applicable,Not Applicable,LI_unitPrice,PRICE,4,Not Applicable,NONE,Not Applicable,MIDDLE,RIGHT,0.5
+CHANDRANI ENTERPRISE,PERNOD_9012,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT(Rs.),5,Not Applicable,NONE,Not Applicable,MIDDLE,RIGHT,0.5
+SIMRAN TOUR AND TRAVELS,PERNOD_9020,LI,ORDER NO:,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SIMRAN TOUR AND TRAVELS,PERNOD_9020,LI,Not Applicable,Amount Chargeable (in words),Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SIMRAN TOUR AND TRAVELS,PERNOD_9020,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+SIMRAN TOUR AND TRAVELS,PERNOD_9020,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of  ,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,0.5
+SIMRAN TOUR AND TRAVELS,PERNOD_9020,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SIMRAN TOUR AND TRAVELS,PERNOD_9020,LI,Not Applicable,Not Applicable,LI_itemQuantity,Quantity  ,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+SIMRAN TOUR AND TRAVELS,PERNOD_9020,LI,Not Applicable,Not Applicable,LI_unitPrice,Price,4,Not Applicable,Not Applicable,Not Applicable,MIDDLE,RIGHT,NONE
+SIMRAN TOUR AND TRAVELS,PERNOD_9020,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT(Rs.),5,Not Applicable,Not Applicable,Not Applicable,MIDDLE,RIGHT,0.5
+GINGERBAY SERVICES,VELANKANI_2164,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+GINGERBAY SERVICES,VELANKANI_2164,LI,Not Applicable,SUBTOTAL,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+GINGERBAY SERVICES,VELANKANI_2164,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+GINGERBAY SERVICES,VELANKANI_2164,LI,Not Applicable,Not Applicable,LI_itemDescription,SERVICE TYPE,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+GINGERBAY SERVICES,VELANKANI_2164,LI,Not Applicable,Not Applicable,LI_itemQuantity,QTY,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+GINGERBAY SERVICES,VELANKANI_2164,LI,Not Applicable,Not Applicable,LI_unitPrice,RATE,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+GINGERBAY SERVICES,VELANKANI_2164,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Velankani Cloud Solutions Private Limited,VELANKANI_2447,LI,GSTIN,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Velankani Cloud Solutions Private Limited,VELANKANI_2447,LI,Not Applicable,Total Amount,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Velankani Cloud Solutions Private Limited,VELANKANI_2447,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+Velankani Cloud Solutions Private Limited,VELANKANI_2447,LI,Not Applicable,Not Applicable,LI_itemDescription,Description,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,0.5
+Velankani Cloud Solutions Private Limited,VELANKANI_2447,LI,Not Applicable,Not Applicable,LI_HSNCode,SAC Code,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Velankani Cloud Solutions Private Limited,VELANKANI_2447,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,3,YES,Not Applicable,Not Applicable,MIDDLE,LEFT,0.5
+Velankani Cloud Solutions Private Limited,VELANKANI_2447,LI,Not Applicable,Not Applicable,LI_unitPrice,Price,4,YES,Not Applicable,Not Applicable,MIDDLE,LEFT,0.5
+Velankani Cloud Solutions Private Limited,VELANKANI_2447,LI,Not Applicable,Not Applicable,LI_itemValue,Total,5,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,0.8
+DIGI-KEY,VELANKANI_27,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DIGI-KEY,VELANKANI_27,LI,Not Applicable,Total Amount,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DIGI-KEY,VELANKANI_27,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+DIGI-KEY,VELANKANI_27,LI,Not Applicable,Not Applicable,LI_itemDescription,Description,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,0.5
+DIGI-KEY,VELANKANI_27,LI,Not Applicable,Not Applicable,LI_HSNCode,SAC Code,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+DIGI-KEY,VELANKANI_27,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,3,YES,Not Applicable,Not Applicable,MIDDLE,LEFT,0.5
+DIGI-KEY,VELANKANI_27,LI,Not Applicable,Not Applicable,LI_unitPrice,Price,4,YES,Not Applicable,Not Applicable,MIDDLE,LEFT,0.5
+DIGI-KEY,VELANKANI_27,LI,Not Applicable,Not Applicable,LI_itemValue,Total,5,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,0.8
+INDUSTRIAL BOLT CENTER,VELANKANI_4034,LI,GSTIN,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+INDUSTRIAL BOLT CENTER,VELANKANI_4034,LI,Not Applicable,Taxable Amt,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+INDUSTRIAL BOLT CENTER,VELANKANI_4034,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+INDUSTRIAL BOLT CENTER,VELANKANI_4034,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of Goods,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,0.8
+INDUSTRIAL BOLT CENTER,VELANKANI_4034,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN No,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+INDUSTRIAL BOLT CENTER,VELANKANI_4034,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+INDUSTRIAL BOLT CENTER,VELANKANI_4034,LI,Not Applicable,Not Applicable,LI_unitPrice,Rate,4,YES,Not Applicable,Not Applicable,MIDDLE,LEFT,0.5
+INDUSTRIAL BOLT CENTER,VELANKANI_4034,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Burhani Enterprises,VELANKANI_18,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Burhani Enterprises,VELANKANI_18,LI,Not Applicable,Total Amunt Before Tax,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Burhani Enterprises,VELANKANI_18,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+Burhani Enterprises,VELANKANI_18,LI,Not Applicable,Not Applicable,LI_itemDescription,Name of Product/Service,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+Burhani Enterprises,VELANKANI_18,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN Code,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Burhani Enterprises,VELANKANI_18,LI,Not Applicable,Not Applicable,LI_itemQuantity,QTY,3,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,0.4
+Burhani Enterprises,VELANKANI_18,LI,Not Applicable,Not Applicable,LI_unitPrice,RATE,4,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,0.4
+Burhani Enterprises,VELANKANI_18,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,5,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,0.4
+Manjubuddala,VELANKANI_2397,LI,state karnataka,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Manjubuddala,VELANKANI_2397,LI,Not Applicable,Total amount in words,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Manjubuddala,VELANKANI_2397,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+Manjubuddala,VELANKANI_2397,LI,Not Applicable,Not Applicable,LI_itemDescription,Particulars,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+Manjubuddala,VELANKANI_2397,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Aurora Components Co.Ltd,VELANKANI_4027,LI,Bydesign india Pvt Limited,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Aurora Components Co.Ltd,VELANKANI_4027,LI,Not Applicable,page 1,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Aurora Components Co.Ltd,VELANKANI_4027,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+Aurora Components Co.Ltd,VELANKANI_4027,LI,Not Applicable,Not Applicable,PI Number,PI number,1,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Aurora Components Co.Ltd,VELANKANI_4027,LI,Not Applicable,Not Applicable,LI_itemDescription,Part Number/ Description ,2,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+Aurora Components Co.Ltd,VELANKANI_4027,LI,Not Applicable,Not Applicable,LI_HSNCode,HS code,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Aurora Components Co.Ltd,VELANKANI_4027,LI,Not Applicable,Not Applicable,LI_itemQuantity,quantity,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Aurora Components Co.Ltd,VELANKANI_4027,LI,Not Applicable,Not Applicable,LI_unitPrice,Unit Price,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Aurora Components Co.Ltd,VELANKANI_4027,LI,Not Applicable,Not Applicable,LI_itemValue,Value cost,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+"Shenzhen Hopesearch PCB Manufacturing Co.,LTD",VELANKANI_4035,LI,Bydesign india Pvt Limited,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+"Shenzhen Hopesearch PCB Manufacturing Co.,LTD",VELANKANI_4035,LI,Not Applicable,Bare printed circuit board ,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+"Shenzhen Hopesearch PCB Manufacturing Co.,LTD",VELANKANI_4035,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+"Shenzhen Hopesearch PCB Manufacturing Co.,LTD",VELANKANI_4035,LI,Not Applicable,Not Applicable,PO NO.,PO NO.,1,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+"Shenzhen Hopesearch PCB Manufacturing Co.,LTD",VELANKANI_4035,LI,Not Applicable,Not Applicable,HOPESEARCH,HOPESEARCH,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+"Shenzhen Hopesearch PCB Manufacturing Co.,LTD",VELANKANI_4035,LI,Not Applicable,Not Applicable,LI_HSNCode,Clients part No,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+"Shenzhen Hopesearch PCB Manufacturing Co.,LTD",VELANKANI_4035,LI,Not Applicable,Not Applicable,LI_itemDescription,Description,4,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+"Shenzhen Hopesearch PCB Manufacturing Co.,LTD",VELANKANI_4035,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty's,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+"Shenzhen Hopesearch PCB Manufacturing Co.,LTD",VELANKANI_4035,LI,Not Applicable,Not Applicable,LI_unitPrice,Unit Price,6,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+"Shenzhen Hopesearch PCB Manufacturing Co.,LTD",VELANKANI_4035,LI,Not Applicable,Not Applicable,Tooling ,Tooling ,7,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+"Shenzhen Hopesearch PCB Manufacturing Co.,LTD",VELANKANI_4035,LI,Not Applicable,Not Applicable,LI_itemValue,Amount,8,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Future Electronic INC.,VELANKANI_4031,LI,SOLD TO,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Future Electronic INC.,VELANKANI_4031,LI,Not Applicable,USD,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Future Electronic INC.,VELANKANI_4031,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+Future Electronic INC.,VELANKANI_4031,LI,Not Applicable,Not Applicable,SHIPPED TO,SHIPPED TO,1,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Future Electronic INC.,VELANKANI_4031,LI,Not Applicable,Not Applicable,BACK,BACK,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Future Electronic INC.,VELANKANI_4031,LI,Not Applicable,Not Applicable,LINE ,LINE ,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Future Electronic INC.,VELANKANI_4031,LI,Not Applicable,Not Applicable,CLASS,CLASS,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Future Electronic INC.,VELANKANI_4031,LI,Not Applicable,Not Applicable,MFR,MFR,5,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Future Electronic INC.,VELANKANI_4031,LI,Not Applicable,Not Applicable,LI_itemDescription,PRODUCT DESCRIPTION,6,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+Future Electronic INC.,VELANKANI_4031,LI,Not Applicable,Not Applicable,Gross weight kg,Gross weight kg,7,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Future Electronic INC.,VELANKANI_4031,LI,Not Applicable,Not Applicable,Net weight kg,Net weight kg,8,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Future Electronic INC.,VELANKANI_4031,LI,Not Applicable,Not Applicable,LI_unitPrice,unit price,9,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,1
+Future Electronic INC.,VELANKANI_4031,LI,Not Applicable,Not Applicable,U/M,U/M,10,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Future Electronic INC.,VELANKANI_4031,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT,11,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Green Labs,VELANKANI_366,LI,"M/s. VELANKANI ELECTRONICS PVT LTD, U-2",Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Green Labs,VELANKANI_366,LI,Not Applicable,Bank Details,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Green Labs,VELANKANI_366,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,MIDDLE,Not Applicable,NONE,NONE,NONE
+Green Labs,VELANKANI_366,LI,Not Applicable,Not Applicable,LI_itemDescription,Description,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+Green Labs,VELANKANI_366,LI,Not Applicable,Not Applicable,LI_HSNCode,SAC Code,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Green Labs,VELANKANI_366,LI,Not Applicable,Not Applicable,LI_itemQuantity,Qty,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Green Labs,VELANKANI_366,LI,Not Applicable,Not Applicable,LI_unitPrice,Price,4,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Green Labs,VELANKANI_366,LI,Not Applicable,Not Applicable,LI_itemValue,Total,5,YES,Not Applicable,Not Applicable,MIDDLE,RIGHT,1
+Chandra Shekar,VELANKANI_228,LI,M/S Bydesign India pvt Ltd,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Chandra Shekar,VELANKANI_228,LI,Not Applicable,for C S Crane service,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Chandra Shekar,VELANKANI_228,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,TOP,Not Applicable,NONE,NONE,NONE
+Chandra Shekar,VELANKANI_228,LI,Not Applicable,Not Applicable,LI_itemDescription,PARTICULARS,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+Chandra Shekar,VELANKANI_228,LI,Not Applicable,Not Applicable,INVOICE NO,INVOICE NO,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Chandra Shekar,VELANKANI_228,LI,Not Applicable,Not Applicable,LI_itemQuantity,NO OF,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+Chandra Shekar,VELANKANI_228,LI,Not Applicable,Not Applicable,LI_unitPrice,RATE,4,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+Chandra Shekar,VELANKANI_228,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT,5,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+R K T R &Co,VELANKANI_4040,LI,Buyer(Bill to),Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+R K T R &Co,VELANKANI_4040,LI,Not Applicable,Amount chargeable(in words),Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+R K T R &Co,VELANKANI_4040,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+R K T R &Co,VELANKANI_4040,LI,Not Applicable,Not Applicable,LI_itemDescription,PARTICULARS,1,Not Applicable,Not Applicable,MULTI,MIDDLE,LEFT,1
+R K T R &Co,VELANKANI_4040,LI,Not Applicable,Not Applicable,LI_HSNCode,HSN/SAC,2,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+R K T R &Co,VELANKANI_4040,LI,Not Applicable,Not Applicable,LI_itemValue,AMOUNT,3,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
+FREIGHT,FREIGHT_4,LI,RATES AND ACCESSORIALS,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FREIGHT,FREIGHT_4,LI,Not Applicable,Surcharge,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FREIGHT,FREIGHT_4,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+FREIGHT,FREIGHT_4,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of Goods,1,Not Applicable,Not Applicable,MULTI,NONE,NONE,NONE
+FREIGHT,FREIGHT_4,LI,Not Applicable,Not Applicable,LI_Type,Type,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FREIGHT,FREIGHT_4,LI,Not Applicable,Not Applicable,LI_itemQuantity,Unit,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FREIGHT,FREIGHT_4,LI,Not Applicable,Sub-Total,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FREIGHT,FREIGHT_4,LI,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,Not Applicable,NONE,Not Applicable,NONE,NONE,NONE
+FREIGHT,FREIGHT_4,LI,Not Applicable,Not Applicable,LI_itemDescription,Description of Goods,1,Not Applicable,Not Applicable,MULTI,MIDDLE,RIGHT,1
+FREIGHT,FREIGHT_4,LI,Not Applicable,Not Applicable,LI_Type,Type,2,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FREIGHT,FREIGHT_4,LI,Not Applicable,Not Applicable,LI_itemQuantity,Units,3,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FREIGHT,FREIGHT_4,LI,Not Applicable,Not Applicable,LI_unitPrice,Per Unit,4,Not Applicable,Not Applicable,Not Applicable,NONE,NONE,NONE
+FREIGHT,FREIGHT_4,LI,Not Applicable,Not Applicable,LI_itemValue,Total,5,YES,Not Applicable,Not Applicable,NONE,NONE,NONE
