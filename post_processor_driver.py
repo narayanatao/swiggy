@@ -182,7 +182,7 @@ def main():
     :return:
     """
     
-    file_path = r"/Volumes/Macintosh HD - Data/workspace/Swiggy_Data/pred_files/4ba46b91-3dba-4cb4-b04f-879702eb071f_pred.csv"
+    file_path = r"/Volumes/Macintosh HD - Data/workspace/Swiggy_Data/pred_files/c6525271-3848-40eb-9f5e-6907df727354_pred.csv"
     # document_id = os.path.basebame(file_path).split("_pred")[0]
     # document_id = "doc_1640339955202_a88baa89989"
     # docMetaData = putil.getDocumentApi(document_id, callbackUrl='http://13.71.23.200:9999')

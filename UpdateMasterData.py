@@ -308,8 +308,8 @@ def Update_Master_Data():
         args = sys.argv
         print("args :",len(args))
         if len(args)==1:
-            Vendor_Master = r"MH-Vendor-Master.xlsx"  
-            Entitiy_Master = r"MH-Entity_Master.xlsx"
+            Vendor_Master = r"MH_Vendor_Master.xlsx"  
+            Entitiy_Master = r"MH_Entity_Master.xlsx"
             dwonload_folder = r"./Utilities"
             print("Dwonloading new vendor master data")
             Dwonload_Vendor_MasterData =  download_MasterData_from_blob(Vendor_Master,dwonload_folder)
@@ -318,11 +318,16 @@ def Update_Master_Data():
 
 
             CURRENT_VENDOR_MASTER = pd.read_csv(vendorMasterDataPath) #r"./Utilities/VENDOR_ADDRESS_MASTERDATA.csv")
-            NEW_VENDOR_MASTER = pd.read_excel(r"./Utilities/MH-Vendor-Master.xlsx")
+            NEW_VENDOR_MASTER = pd.read_excel(os.path.join(dwonload_folder,Vendor_Master))
             # Entity master data table rows starts from 3rd row and column starts from second 
-            NEW_ENTITY_MASTER = pd.read_excel(r"./Utilities/MH-Entity_Master.xlsx",skiprows=3,usecols = "B:H")
-            NEW_VENDOR_MASTER = NEW_VENDOR_MASTER[["Contact Name","GST Identification Number (GSTIN)"]]
-            NEW_VENDOR_MASTER = NEW_VENDOR_MASTER.rename(columns={"Contact Name":"VENDOR_NAME","GST Identification Number (GSTIN)":"VENDOR_GSTIN"})
+            NEW_ENTITY_MASTER = pd.read_excel(r"./Utilities/MH_Entity_Master.xlsx",skiprows=3,usecols = "B:H")
+            # NEW_VENDOR_MASTER = NEW_VENDOR_MASTER[["Contact Name","GST Identification Number (GSTIN)"]]
+            print("NEW_VENDOR_MASTER",NEW_VENDOR_MASTER.columns)
+
+            #NEW_VENDOR_MASTER = NEW_VENDOR_MASTER.rename(columns={"Contact Name":"VENDOR_NAME","GST Identification Number (GSTIN)":"VENDOR_GSTIN"})
+            #NEW_ENTITY_MASTER = pd.read_excel(r"./Utilities/MH-Entity_Master.xlsx")
+            print("NEW_ENTITY_MASTER cols",NEW_ENTITY_MASTER.columns)
+
             CURRENT_ENTITY_MASTER = pd.read_csv(buyerMasterDataPath) #r"./Utilities/BUYER_ADDRESS_MASTERDATA.csv")
 
             # Removing Replacing NaN values to ""
@@ -351,6 +356,7 @@ def Update_Master_Data():
                     CURRENT_VENDOR_MASTER["IDENTIFIER_TEXT"]  = identifier
                     CURRENT_VENDOR_MASTER["DOCUMENT_TEXT"]  = identifier
                     CURRENT_VENDOR_MASTER["MATCH_SCORE"]  = score
+                    CURRENT_VENDOR_MASTER = CURRENT_VENDOR_MASTER.applymap(lambda x: x.strip() if isinstance(x, str) else x)
                     CURRENT_VENDOR_MASTER.to_csv(r"./Utilities/SWIGGY_VENDOR_ADDRESS_MASTERDATA.csv",index = False)
                     print("Vendor master updates Done!")
                 except:
@@ -365,6 +371,7 @@ def Update_Master_Data():
                     CURRENT_ENTITY_MASTER = update_existing_enity_master(CURRENT_ENTITY_MASTER,NEW_ENTITY_MASTER)
                     print("Adding new records into entity master")            
                     CURRENT_ENTITY_MASTER = adding_new_record_into_entity_master(CURRENT_ENTITY_MASTER,NEW_ENTITY_MASTER,CURRENT_VENDOR_MASTER)
+                    CURRENT_ENTITY_MASTER = CURRENT_ENTITY_MASTER.applymap(lambda x: x.strip() if isinstance(x, str) else x)
                     CURRENT_ENTITY_MASTER.to_csv(r"./Utilities/SWIGGY_BUYER_ADDRESS_MASTERDATA.csv")
                     print("Entity master updates Done!")
                 except:
@@ -408,6 +415,7 @@ def Update_Master_Data():
                 CURRENT_VENDOR_MASTER["IDENTIFIER_TEXT"]  = identifier
                 CURRENT_VENDOR_MASTER["DOCUMENT_TEXT"]  = identifier
                 CURRENT_VENDOR_MASTER["MATCH_SCORE"]  = score
+                CURRENT_VENDOR_MASTER = CURRENT_VENDOR_MASTER.applymap(lambda x: x.strip() if isinstance(x, str) else x)
                 CURRENT_VENDOR_MASTER.to_csv(r"./Utilities/SWIGGY_VENDOR_ADDRESS_MASTERDATA.csv",index = False)
                 print("Vendor master updates Done!")
                 return

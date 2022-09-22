@@ -55,6 +55,10 @@ def docBizRuleValidate():
         print("Input from the UI:\n ", content)
 
         documentId = content["documentId"]
+        # 12 sep 22  CR to make Vendor GSTIN and PAN optional
+        UI_validation = content["UI_validation"]
+        # 12 sep 22  CR to make Vendor GSTIN and PAN optional
+
         #Jul 05 2022 - DO NOT USE Callback Url to update back to UI.
         #Use a configured Url to write back to UI
         # callBackUrl = content["callBackUrl"]
@@ -62,8 +66,14 @@ def docBizRuleValidate():
         #Jul 05 2022 - DO NOT USE Callback Url to update back to UI.
         #Use a configured Url to write back to UI
         print("Input from the UI:\n ", content)
+        # 12 sep 22  CR to make Vendor GSTIN and PAN optional
+        # resp = BR(documentId,
+        #     callBackUrl)
+
         resp = BR(documentId,
-                  callBackUrl)
+            callBackUrl,UI_validation)
+        # 12 sep 22  CR to make Vendor GSTIN and PAN optional
+
         if resp is not None:
             if len(resp) == 0:
                 return Response(successResponse(),

@@ -24,6 +24,7 @@ from modify_prediction import modify_prediction
 from rule_based_validation import validate_final_output
 from business_rules import apply_business_rules
 from business_rules import client_required_fields
+from  client_rules import makeDefaultPredValToNA, vendor_name_validation
 from client_rules import apply_client_rules, adding_mandatory_fieldFlag, custom_sorting_prediction
 # from client_rules import build_final_QRCode_json
 
@@ -94,14 +95,13 @@ print(script_dir)
 vendorMasterDataPath = cfg.getVendorMasterData()
 buyerMasterDataPath = cfg.getBuyerMasterData()
 addressFilePath = os.path.join(script_dir,buyerMasterDataPath)
-                            #  "Utilities/BUYER_ADDRESS_MASTERDATA.csv")
-ADDRESS_MASTERDATA = pd.read_csv(addressFilePath, encoding='unicode_escape')
+REFERENCE_MASTER_DATA = cfg.getReferenceMasterData()
+# ADDRESS_MASTERDATA = pd.read_csv(addressFilePath, encoding='unicode_escape')
 
 masterFilePath = os.path.join(script_dir,vendorMasterDataPath)
                              # r"Utilities/VENDOR_ADDRESS_MASTERDATA.csv")
-VENDOR_MASTERDATA = pd.read_csv(masterFilePath, encoding='unicode_escape')
-swiggyvendorpath = os.path.join(script_dir,
-                              "Utilities/SWIGGY_VENDOR_EXTRACTION_HISTORY.csv")
+# VENDOR_MASTERDATA = pd.read_csv(masterFilePath, encoding='unicode_escape')
+REFERENCE_MASTER_DATA_PATH = os.path.join(script_dir,REFERENCE_MASTER_DATA)
 """
 def refresh_vendor_masterdata(preprocess_vendor):
     
@@ -474,7 +474,8 @@ def get_vendor(df, preprocess_vendor):
         return (None, None, None)
 """
 def GetVendor(DF,VENDOR_MASTERDATA):
-    # Vendor_Data = pd.read_csv(r"./Utilities/VENDOR_ADDRESS_MASTERDATA.csv")
+    # VENDOR_MASTERDATA = pd.read_csv(r"./Utilities/VENDOR_ADDRESS_MASTERDATA.csv")
+    # VENDOR_MASTERDATA = VENDOR_MASTERDATA.applymap(lambda x: x.strip() if isinstance(x, str) else x)
     print("vendor data shap :",VENDOR_MASTERDATA.shape)
     DF = DF[DF["is_gstin_format"]==1]
     print("GSTIN data shape :",DF.shape)
@@ -2280,15 +2281,26 @@ def countrybean_ocr_corr(prediction):
     except:
         print('exemption')
         return prediction
+def INNOVATIVE_foods_corr(prediction):
+    try:
+        if prediction['vendorGSTIN']['text']=='27AAACI5750N1Z8':
+            if ':' in prediction['invoiceDate']['text']:
+                prediction['invoiceDate']['text']=parse((prediction['invoiceDate']['text']).split(':')[1]).strftime('%d/%m/%Y')
+                print('kk2')
+        return prediction
+    except:
+        print('exeption')
+        return prediction
 def wordshape(text):
     import re
     t1 = re.sub('[A-Z]', 'X',text)
     t2 = re.sub('[a-z]', 'x', t1)
     return re.sub('[0-9]', 'd', t2)
 
-def checking_stp_1(prediction):
+def checking_stp_1(prediction,df):
     try:
-        df = pd.read_csv(swiggyvendorpath, encoding='unicode_escape')
+        print("checking Refence data")
+        # df = pd.read_csv(swiggyvendorpath, encoding='unicode_escape')
 
         #checking stp for invoice number
         a= math.floor(prediction['invoiceNumber']['left'] * prediction['invoiceNumber']['image_widht'])
@@ -2296,10 +2308,9 @@ def checking_stp_1(prediction):
         c=math.floor(prediction['invoiceNumber']['top'] * prediction['invoiceNumber']['image_height'])
         d=math.ceil(prediction['invoiceNumber']['bottom'] * prediction['invoiceNumber']['image_height'])
         filt = df[df["vendor_id"] == prediction['vendorGSTIN']['text']]
-
         # filt = df[df["vendor_name"] == prediction['vendorName']['text']]
-
         filt = filt[filt['field_name']=='invoiceNumber']
+        filt = filt[filt['status']==1]
         invnum=prediction['invoiceNumber']['text']
         i=0
         if (filt.shape[0])>0:
@@ -2327,10 +2338,8 @@ def checking_stp_1(prediction):
                     else:
                         prediction['invoiceNumber']['final_confidence_score']=0.75
                     break
-
         else:
             prediction['invoiceNumber']['final_confidence_score']=0.5
-
 
         #invoice_date stp checking
         a= math.floor(prediction['invoiceDate']['left'] * prediction['invoiceDate']['image_widht'])
@@ -2338,10 +2347,9 @@ def checking_stp_1(prediction):
         c=math.floor(prediction['invoiceDate']['top'] * prediction['invoiceDate']['image_height'])
         d=math.ceil(prediction['invoiceDate']['bottom'] * prediction['invoiceDate']['image_height'])
         filt = df[df["vendor_id"] == prediction['vendorGSTIN']['text']]
-
         # filt = df[df["vendor_name"] == prediction['vendorName']['text']]
-
         filt = filt[filt['field_name']=='invoiceDate']
+        filt = filt[filt['status']==1]
         i=0
         if (filt.shape[0])>0:
             for index,row in filt.iterrows():
@@ -2361,10 +2369,8 @@ def checking_stp_1(prediction):
                     #prediction['invoiceDate']['wordshape_confidence']=0.75
                     prediction['invoiceDate']['final_confidence_score']=0.65
                     break
-
         else:
             prediction['invoiceDate']['final_confidence_score']=0.5
-
         return prediction
     except:
         print('there is a exeption')
@@ -4311,6 +4317,12 @@ def post_process(DF, docMetaData=None):
     Step 1: Identify Vendor from Vendor MasterData
     There can be two cases: Vendor is present or absent
     """
+    # Reading Master Data
+    ADDRESS_MASTERDATA = pd.read_csv(addressFilePath, encoding='unicode_escape')
+    ADDRESS_MASTERDATA = ADDRESS_MASTERDATA.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+    VENDOR_MASTERDATA = pd.read_csv(masterFilePath, encoding='unicode_escape')
+    VENDOR_MASTERDATA = VENDOR_MASTERDATA.applymap(lambda x: x.strip() if isinstance(x, str) else x)
+    REFERENCE_DATA = pd.read_csv(REFERENCE_MASTER_DATA_PATH, encoding='unicode_escape')
 
     # Get docType and orgType from input
     if docMetaData:
@@ -4432,6 +4444,7 @@ def post_process(DF, docMetaData=None):
     final_prediction = apply_client_rules(DF, final_prediction, docMetaData, ADDRESS_MASTERDATA,VENDOR_MASTERDATA)
     print("Final prediction after client rules:", final_prediction)
     final_prediction=countrybean_ocr_corr(final_prediction)
+    final_prediction=INNOVATIVE_foods_corr(final_prediction)
     if cfg.getAppName() == "PAIGES":
         final_prediction = present_doc_output(final_prediction, doc_type, org_type)
         print("Final prediction after present doc_output done")
@@ -4466,12 +4479,14 @@ def post_process(DF, docMetaData=None):
 
     # Keep required fileds for the client in the prediction
     final_prediction = client_required_fields(final_prediction, vendor_masterdata)
+    final_prediction = makeDefaultPredValToNA(final_prediction)
+    final_prediction = vendor_name_validation(final_prediction,VENDOR_MASTERDATA)
     final_prediction = validating_amount_fields_increasing_confidence(DF,final_prediction)
     print("final prediction after adding required fields :",final_prediction.keys())
     final_prediction =  custom_sorting_prediction(final_prediction)
     print("Prediction after sorting by order :",final_prediction.keys())
     final_prediction = adding_mandatory_fieldFlag(final_prediction)
-    final_prediction = checking_stp_1(final_prediction)
+    final_prediction = checking_stp_1(final_prediction,REFERENCE_DATA)
     print("calling check_multiple_invoices")
     final_prediction = check_multiple_invoices("invoiceNumber",final_prediction,DF)
     # stp=0
