@@ -4,6 +4,7 @@ import json
 import os
 # from pickle import TRUE
 import re
+from shutil import register_unpack_format
 from tabnanny import check
 # from tkinter.messagebox import NO
 from dateutil import parser
@@ -16,6 +17,7 @@ from business_rules import add_new_field, reduce_field_confidence
 from business_rules import reduce_amount_fields_confidenace, reduction_confidence_taxes
 import preProcUtilities as putil
 import traceback
+import rapidfuzz
 # from collections import OrderedDict
 
 
@@ -1742,7 +1744,22 @@ def custom_sorting_prediction(prediction):
         print("Sorting prediction  exception :",traceback.print_exc())
         return prediction
 
-def calculate_total(DF, prediction)-> dict:
+def update_field_values(prediction:dict,field_name:str,final_confidence_score=None,calculated=None):
+    try:
+        field_json = prediction.get(field_name)
+        if field_json:
+            if final_confidence_score is not None:
+                field_json["final_confidence_score"] =final_confidence_score
+            if calculated is not None:
+                field_json["calculated"]= calculated
+            prediction[field_name] = field_json
+        print("update field values :",field_json)
+        return prediction
+    except:
+        print("update field exception:",traceback.print_exc())
+        return prediction
+
+def calculate_total_old(DF, prediction)-> dict:
     
     import math
     pred_copy = copy.deepcopy(prediction) 
@@ -1907,6 +1924,233 @@ def calculate_total(DF, prediction)-> dict:
 
         return prediction
 
+    except :
+        print("Calculate total exception \n",
+              traceback.print_exc())
+        return pred_copy
+
+def calculate_total(DF, prediction)-> dict:
+    import math
+    pred_copy = copy.deepcopy(prediction)
+    try:
+        fields = ["totalAmount","subTotal","CGSTAmount","SGSTAmount","IGSTAmount",
+                        "CessAmount","additionalCessAmount","discountAmount"]
+        field_values = {}
+        for f in fields:
+            if (prediction.get(f)) and (prediction.get(f).get("text") != ''):
+                field_values.update({f:float(prediction.get(f).get("text"))})
+            else:
+                field_values.update({f : None})
+        '''
+        -> calculating copying subtotal as total if all taxes is None.
+        -> subtracting discount if it is not None
+        '''
+        CGSTAmount = field_values.get("CGSTAmount")
+        SGSTAmount = field_values.get("SGSTAmount")
+        IGSTAmount = field_values.get("IGSTAmount")
+        discountAmount = field_values.get("discountAmount")
+        additionalCessAmount = field_values.get("additionalCessAmount")
+        CessAmount = field_values.get("CessAmount")
+        subTotal = field_values.get("subTotal")
+        total = field_values.get("totalAmount")
+        # for key, val in field_values.items():
+        #     print(key," : ",val)
+        noCgst = (CGSTAmount is None) or (CGSTAmount == 0.0)
+        noSgst = (SGSTAmount is None) or (SGSTAmount == 0.0)
+        noIgst = (IGSTAmount is None) or (IGSTAmount == 0.0)
+        noDiscount = (discountAmount is None) or (discountAmount == 0.0)
+        noAdCess = (additionalCessAmount is None) or (additionalCessAmount == 0.0)
+        noCess = (CessAmount is None) or (CessAmount == 0.0)
+        noTotal = (total is None) or (total == 0.0)
+        noSubTotal = (subTotal is None) or (subTotal == 0.0)
+        if noCgst and noSgst and noIgst and noDiscount and noAdCess and noCess:
+            #Aug 02 2022 - code to allow STP if total = subtotal and no taxes are found in header amounts
+            df_filt = DF[(DF["line_row"] == 0) & (DF["extracted_amount"] > 0.0)]
+            extracted_amounts = list(set(list(df_filt["extracted_amount"])))
+            stp_check = False
+            if len(extracted_amounts) <= 2:
+                m1 = max(extracted_amounts)
+                m2 = min(extracted_amounts)
+                if m1 - m2 < 1:
+                    stp_check = True
+            elif len(extracted_amounts) > 2:
+                extracted_amounts = sorted(extracted_amounts,
+                                           reverse = True)
+                first = extracted_amounts[0]
+                second = extracted_amounts[1]
+                if first - second < 1:
+                    rem_amounts = extracted_amounts[2:]
+                else:
+                    rem_amounts = extracted_amounts[1:]
+                sum_amounts = sum(rem_amounts)
+                if abs(sum_amounts - first) < 1:
+                    stp_check = True
+            #Aug 02 2022 - code to allow STP if total = subtotal and no taxes are found in header amounts
+            if noTotal:
+                print("inside all taxes none")
+                if subTotal:
+                    if subTotal > 0.0:
+                        print("sub total is > 0")
+                        if stp_check:
+                            prediction.update(add_new_field(
+                                field_name = "totalAmount",
+                                value = subTotal,
+                                final_confidence_score = 1.0,
+                                calculated = not stp_check))
+                            # #Make other amount fields as 100%
+                            prediction.update(add_new_field(
+                                field_name = "subTotal",
+                                value = subTotal,
+                                final_confidence_score = 1.0,
+                                calculated = not stp_check))
+                            prediction.update(add_new_field(
+                                field_name = "CGSTAmount",
+                                value = 0,
+                                final_confidence_score = 1.0,
+                                calculated = not stp_check))
+                            prediction.update(add_new_field(
+                                field_name = "SGSTAmount",
+                                value = 0,
+                                final_confidence_score = 1.0,
+                                calculated = not stp_check))
+                            prediction.update(add_new_field(
+                                field_name = "IGSTAmount",
+                                value = 0,
+                                final_confidence_score = 1.0,
+                                calculated = not stp_check))
+                            prediction.update(add_new_field(
+                                field_name = "CessAmount",
+                                value = 0,
+                                final_confidence_score = 1.0,
+                                calculated = not stp_check))
+                            prediction.update(add_new_field(
+                                field_name = "additionalCessAmount",
+                                value = 0,
+                                final_confidence_score = 1.0,
+                                calculated = not stp_check))
+                            
+                            #Make other amount fields as 100%
+                        else:
+                            #Remove the STP throttle for subTotal = Total - Sep 20, 2022
+                            # prediction.update(add_new_field(
+                            #     field_name = "totalAmount",
+                            #     value = subTotal,
+                            #     final_confidence_score = 0.4,
+                            #     calculated = not stp_check))
+                            prediction.update(add_new_field(
+                                field_name = "totalAmount",
+                                value = subTotal,
+                                final_confidence_score = 0.7,
+                                calculated = False))
+                            #Remove the STP throttle for subTotal = Total - Sep 20, 2022
+            elif noSubTotal:
+                if total:
+                    if total > 0.0:
+                        print("total is > 0")
+                        if stp_check:
+                            prediction.update(add_new_field(
+                                field_name = "subTotal",
+                                value = total,
+                                final_confidence_score = 1.0,
+                                calculated = not stp_check))
+                            #Make other amount fields as 100%
+                            prediction.update(add_new_field(
+                                field_name = "totalAmount",
+                                value = total,
+                                final_confidence_score = 1.0,
+                                calculated = not stp_check))
+                            prediction.update(add_new_field(
+                                field_name = "CGSTAmount",
+                                value = 0,
+                                final_confidence_score = 1.0,
+                                calculated = not stp_check))
+                            prediction.update(add_new_field(
+                                field_name = "SGSTAmount",
+                                value = 0,
+                                final_confidence_score = 1.0,
+                                calculated = not stp_check))
+                            prediction.update(add_new_field(
+                                field_name = "IGSTAmount",
+                                value = 0,
+                                final_confidence_score = 1.0,
+                                calculated = not stp_check))
+                            prediction.update(add_new_field(
+                                field_name = "CessAmount",
+                                value = 0,
+                                final_confidence_score = 1.0,
+                                calculated = not stp_check))
+                            prediction.update(add_new_field(
+                                field_name = "additionalCessAmount",
+                                value = 0,
+                                final_confidence_score = 1.0,
+                                calculated = not stp_check))
+
+                            #Make other amount fields as 100%
+                        else:
+                            #Remove the STP throttle for subTotal = Total - Sep 20, 2022
+                            # prediction.update(add_new_field(
+                            #     field_name = "subTotal",
+                            #     value = total,
+                            #     final_confidence_score = 0.4,
+                            #     calculated = not stp_check))
+                            prediction.update(add_new_field(
+                                field_name = "subTotal",
+                                value = total,
+                                final_confidence_score = 0.7,
+                                calculated = False))
+                            #Remove the STP throttle for subTotal = Total - Sep 20, 2022
+            elif subTotal > 0.0 and total > 0.0 and math.isclose(total,
+                                                                 subTotal,
+                                                                 abs_tol = 1):
+                #Remove the STP throttle for subTotal = Total - Sep 20, 2022
+                # prediction.update(add_new_field(
+                #     field_name = "totalAmount",
+                #     value = subTotal,
+                #     final_confidence_score = 0.4,
+                #     calculated = not stp_check))
+                if stp_check:
+                    prediction.update(add_new_field(
+                        field_name = "totalAmount",
+                        value = subTotal,
+                        final_confidence_score = 1.0,
+                        calculated = not stp_check))
+                    #Make other amount fields as 100%
+                    prediction.update(add_new_field(
+                        field_name = "CGSTAmount",
+                        value = 0,
+                        final_confidence_score = 1.0,
+                        calculated = not stp_check))
+                    prediction.update(add_new_field(
+                        field_name = "SGSTAmount",
+                        value = 0,
+                        final_confidence_score = 1.0,
+                        calculated = not stp_check))
+                    prediction.update(add_new_field(
+                        field_name = "IGSTAmount",
+                        value = 0,
+                        final_confidence_score = 1.0,
+                        calculated = not stp_check))
+                    prediction.update(add_new_field(
+                        field_name = "CessAmount",
+                        value = 0,
+                        final_confidence_score = 1.0,
+                        calculated = not stp_check))
+                    prediction.update(add_new_field(
+                        field_name = "additionalCessAmount",
+                        value = 0,
+                        final_confidence_score = 1.0,
+                        calculated = not stp_check))
+
+                    #Make other amount fields as 100%
+                else:
+                    print("None stp")
+                    prediction.update(add_new_field(
+                        field_name = "totalAmount",
+                        value = subTotal,
+                        final_confidence_score = 0.7,
+                        calculated = False))
+                #Remove the STP throttle for subTotal = Total - Sep 20, 2022
+        return prediction
     except :
         print("Calculate total exception \n",
               traceback.print_exc())
@@ -2262,6 +2506,40 @@ def validating_extracted_amount_fields_without_left_label(prediction:dict,df)->d
         print("validating_extracted_amount_fields_without_left_label :",traceback.print_exc())
         return pred_copy
         
+def vendor_name_validation(prediction,vendor_master):
+    temp = copy.deepcopy(vendor_master)
+    try:
+        vendorGSTIN = prediction.get("vendorGSTIN")
+        vendorName = prediction.get("vendorName")
+        if vendorGSTIN and vendorGSTIN.get("text")=="N/A":
+            print("vendorGSTIN is N/A","\nvendorName :",vendorName.get("text"))
+            if vendorName and (vendorName.get("text")!=''):
+                temp["VENDOR_NAME"] = temp["VENDOR_NAME"].fillna('')
+                temp["VENDOR_NAME"] = temp["VENDOR_NAME"].apply(remove_commanwords)
+                temp["vendor_match_score"] = temp.apply(lambda row:rapidfuzz.fuzz.WRatio(row["VENDOR_NAME"],remove_commanwords(vendorName.get("text"))),
+                                                        axis=1)
+                temp = temp[temp["vendor_match_score"]>95]
+                print("cut of candidates:",temp.shape,"\t max score",temp["vendor_match_score"].max())
+                if (temp.shape[0]) and (temp.shape[0] == 1):
+                    # for correcting need to replace name with matched cutoff score
+                    vendorMatched = temp.iloc[0].to_dict()
+                    vendorName["extracted_from_masterdata"] = True
+                    prediction["vendorName"] = str(vendorMatched["VENDOR_NAME"]).strip()
+                    # print("updated flag:",prediction["vendorName"])
+        return prediction 
+    except:
+        print("exception:",traceback.print_exc())
+        return prediction
+
+def remove_commanwords(string):
+    try:
+        remove_comman_words = ["pvt","private","pvt.","ltd","ltd.","limited"]
+        words = str(string).split()
+        words = [word for word in words if word.lower() not in remove_comman_words]
+        return ' '.join(words)
+    except:
+        print("remove_commanwords exception :",traceback.print.exc())
+        return string
 
 def apply_client_rules(DF, prediction, docMetaData,ADDRESS_MASTERDATA,VENDOR_MASTERDATA,format_= None):
     print("Started applying  client rules")
@@ -2295,7 +2573,7 @@ def apply_client_rules(DF, prediction, docMetaData,ADDRESS_MASTERDATA,VENDOR_MAS
     prediction = copy_gstin(DF, prediction)
     prediction = get_vendor_buyers_name(DF,prediction,ADDRESS_MASTERDATA,VENDOR_MASTERDATA)
     prediction = extract_vendorPAN(prediction)
-    # prediction = validating_extracted_amount_fields_without_left_label(prediction,DF)
+    prediction = validating_extracted_amount_fields_without_left_label(prediction,DF)
     prediction = calculate_total(DF,prediction)
     prediction = calculate_total2(DF, prediction)
     prediction = check_if_future_Date(prediction)
@@ -2306,7 +2584,11 @@ def apply_client_rules(DF, prediction, docMetaData,ADDRESS_MASTERDATA,VENDOR_MAS
     prediction = reduce_amount_fields_confidenace(prediction)
     return prediction
 
-def bizRuleValidateForUi(documentId,callBackUrl):
+# 12 sep 22  CR to make Vendor GSTIN and PAN optional
+
+# def bizRuleValidateForUi(documentId,callBackUrl):
+def bizRuleValidateForUi(documentId,callBackUrl,UI_validation = False):
+    # 12 sep 22  CR to make Vendor GSTIN and PAN optional
 
     def mandatoryMsg(fldId):
         return fldId + " cannot be blank"
@@ -2341,12 +2623,34 @@ def bizRuleValidateForUi(documentId,callBackUrl):
             #Do Mandatory check
             if fldVal == "" and fldId in mandatoryFields:
                 # return mandatoryMsg(fldId)
+                # 12th sep changes for making vendor GSITN and PAN optional. 13-sep the CR revoke
                 result.append((fldId,mandatoryMsg(fldId)))
+                # if not (UI_validation and (fldId in ["vendorGSTIN","vendorPAN"])):
+                #     result.append((fldId,mandatoryMsg(fldId)))
+                # 12th sep changes for making vendor GSITN and PAN optional. 13-sep the CR revoke
+
             #Do Alpha-numeric check
             if fldId in [fld_[0] for fld_ in fldTypes if fld_[1].lower() == "alpha-numeric"]:
-                if not putil.validAlphaNumeric(fldVal):
-                    result.append((fldId,
-                                   fldId + " is an alpha-numeric field and must contain at-least one alphabet or number"))
+                # 12th sep changes for making vendor GSITN and PAN optional. 13-sep the CR revoke
+                # if not putil.validAlphaNumeric(fldVal):
+                #     result.append((fldId,
+                #         fldId + " is an alpha-numeric field and must contain at-least one alphabet or number"))
+                if UI_validation:
+                    if (fldId not in ["vendorGSTIN","vendorPAN"]):
+                        if not putil.validAlphaNumeric(fldVal):
+                            result.append((fldId,
+                                fldId + " is an alpha-numeric field and must contain at-least one alphabet or number"))
+                    else:
+                        if (fldVal != "N/A"):
+                            if not putil.validAlphaNumeric(fldVal):
+                                result.append((fldId,
+                                    fldId + " is an alpha-numeric field and must contain at-least one alphabet or number"))
+                else:
+                    if not putil.validAlphaNumeric(fldVal):
+                        result.append((fldId,
+                            fldId + " is an alpha-numeric field and must contain at-least one alphabet or number"))
+                # 12th sep changes for making vendor GSITN and PAN optional. 13-sep the CR revoke
+
             #Do numeric check
             if fldId in [fld_[0] for fld_ in fldTypes if fld_[1].lower() == "numeric"]:
                 if not putil.validAmount(fldVal):
@@ -2367,10 +2671,22 @@ def bizRuleValidateForUi(documentId,callBackUrl):
             if len(defFormat) == 1:
                 defFormat_ = defFormat[0]
                 if defFormat_ != "":
-                    if not putil.checkValidFormat(defFormat_,fldFormat):
-                        result.append((fldId,
-                                       invalidFormat(fldId,
-                                                     defFormat_)))
+                # 12th sep changes for making vendor GSITN and PAN optional. 13-sep the CR revoke
+                    # if not putil.checkValidFormat(defFormat_,fldFormat):
+                    #     result.append((fldId, invalidFormat(fldId, defFormat_)))
+
+                    if UI_validation:
+                        if (fldId not in ["vendorGSTIN","vendorPAN"]):
+                            if not putil.checkValidFormat(defFormat_,fldFormat):
+                                result.append((fldId, invalidFormat(fldId, defFormat_)))
+                        else:
+                            if fldVal != "N/A":
+                                if not putil.checkValidFormat(defFormat_,fldFormat):
+                                    result.append((fldId, invalidFormat(fldId, defFormat_)))
+                    else:
+                        if not putil.checkValidFormat(defFormat_,fldFormat):
+                            result.append((fldId, invalidFormat(fldId, defFormat_)))
+                # 12th sep changes for making vendor GSITN and PAN optional. 13-sep the CR revoke
 
         #Functional rule
         vendorGSTIN = flds.get("vendorGSTIN")
@@ -2434,27 +2750,53 @@ def bizRuleValidateForUi(documentId,callBackUrl):
         if calcTotalGST != convTotalGST:
             result.append(("totalGSTAmount",
                           "Total GST Amount should be sum of individual GST Amounts"))
+        print("vendorGSTIN before GST Validation:", vendorGSTIN)
         if calcTotalGST > 0.0:
-            if vendorGSTIN is not None and billingGSTIN is not None:
-                print("vendorGSTIN",vendorGSTIN)
-                print("billingGSTIN",billingGSTIN)
-                print("CGST",CGSTAmount,
-                      "SGST",SGSTAmount,
-                      "IGST",IGSTAmount)
-                print("condition",
-                      vendorGSTIN[:2].upper() == billingGSTIN[:2].upper(),
-                      ((convCGSTAmount == 0) or (convSGSTAmount == 0)))
-                if (vendorGSTIN[:2].upper() == billingGSTIN[:2].upper()) and ((convSGSTAmount == 0) or (convCGSTAmount == 0)):
-                    if convCGSTAmount == 0:
-                        result.append(("CGSTAmount",
-                                      "CGST Amount cannot be blank or zero when total tax is not empty"))
-                    if convSGSTAmount == 0:
-                        result.append(("SGSTAmount",
-                                      "SGST Amount cannot be blank or zero when total tax is not empty"))
-                elif (vendorGSTIN[:2].upper() != billingGSTIN[:2].upper()) and (convIGSTAmount == 0):
-                    if convIGSTAmount == 0:
-                        result.append(("IGSTAmount",
-                                      "IGST Amount cannot be blank or zero when total tax is not empty"))
+        # 12th sep changes for making vendor GSITN and PAN optional. 13-sep the CR revoke
+            # if vendorGSTIN is not None and billingGSTIN is not None:
+            #     print("vendorGSTIN",vendorGSTIN)
+            #     print("billingGSTIN",billingGSTIN)
+            #     print("CGST",CGSTAmount,
+            #             "SGST",SGSTAmount,
+            #             "IGST",IGSTAmount)
+            #     print("condition",
+            #             vendorGSTIN[:2].upper() == billingGSTIN[:2].upper(),
+            #             ((convCGSTAmount == 0) or (convSGSTAmount == 0)))
+            #     if (vendorGSTIN[:2].upper() == billingGSTIN[:2].upper()) and ((convSGSTAmount == 0) or (convCGSTAmount == 0)):
+            #         if convCGSTAmount == 0:
+            #             result.append(("CGSTAmount",
+            #                             "CGST Amount cannot be blank or zero when total tax is not empty"))
+            #         if convSGSTAmount == 0:
+            #             result.append(("SGSTAmount",
+            #                             "SGST Amount cannot be blank or zero when total tax is not empty"))
+            #     elif (vendorGSTIN[:2].upper() != billingGSTIN[:2].upper()) and (convIGSTAmount == 0):
+            #         if convIGSTAmount == 0:
+            #             result.append(("IGSTAmount",
+            #                             "IGST Amount cannot be blank or zero when total tax is not empty"))
+
+            if not UI_validation and vendorGSTIN != "N/A":
+                if vendorGSTIN is not None and billingGSTIN is not None:
+                    print("vendorGSTIN",vendorGSTIN)
+                    print("billingGSTIN",billingGSTIN)
+                    print("CGST",CGSTAmount,
+                          "SGST",SGSTAmount,
+                          "IGST",IGSTAmount)
+                    print("condition",
+                          vendorGSTIN[:2].upper() == billingGSTIN[:2].upper(),
+                          ((convCGSTAmount == 0) or (convSGSTAmount == 0)))
+                    if (vendorGSTIN[:2].upper() == billingGSTIN[:2].upper()) and ((convSGSTAmount == 0) or (convCGSTAmount == 0)):
+                        if convCGSTAmount == 0:
+                            result.append(("CGSTAmount",
+                                          "CGST Amount cannot be blank or zero when total tax is not empty"))
+                        if convSGSTAmount == 0:
+                            result.append(("SGSTAmount",
+                                          "SGST Amount cannot be blank or zero when total tax is not empty"))
+                    elif (vendorGSTIN[:2].upper() != billingGSTIN[:2].upper()) and (convIGSTAmount == 0):
+                        if convIGSTAmount == 0:
+                            result.append(("IGSTAmount",
+                                          "IGST Amount cannot be blank or zero when total tax is not empty"))
+        # 12th sep changes for making vendor GSITN and PAN optional. 13-sep the CR revoke
+
         if convSubTotal > 0 or calcTotalGST > 0 or calcAddlTax > 0:
             netAmount = convSubTotal - convDiscAmt + calcTotalGST + calcAddlTax
             import math
@@ -2580,7 +2922,8 @@ def check_date_field_stp_score(documentId, callbackUrl):
             docInfo = docResult["result"]["document"]["documentInfo"]
             for docInfo_ in docInfo:
                 #print(docInfo_["fieldId"])
-                if docInfo_["fieldId"]=="invoiceDate":
+                stp_score_field = ["invoiceDate","invoiceNumber"]
+                if docInfo_["fieldId"] in stp_score_field:
                     print("checking invoiceDate stp confidence",docInfo_.get("confidence"))
                     if docInfo_.get("confidence") < 60:
                         print("Date confidance not meet the stp score")
@@ -2631,3 +2974,14 @@ def getBuyerStateCode(documentId, callbackUrl):
               traceback.print_exc())
         return None
 
+def makeDefaultPredValToNA(prediction):
+    try:
+        for k,v in prediction.items():
+            if (k in ["vendorGSTIN","vendorPAN"]) and v :
+                # print(k)
+                if v["text"] =='':
+                    v["text"] = "N/A"
+                    prediction[k]= v
+        return prediction 
+    except:
+        return prediction

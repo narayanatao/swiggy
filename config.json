@@ -20,7 +20,7 @@
 "GHOST_COMMAND_QUIT":"quit",
 "GHOST_COMMAND_OUT":"-o",
 "GHOST_COMMAND_FORCE":"-c",
-"UI_SERVER":"http://52.172.153.247:8686",
+"UI_SERVER":"http://172.22.0.10",
 "DOCUMENT_UPDATE_URL":"document/update",
 "DOCUMENT_RESULT_UPDATE_URL":"document/result/update",
 "DOCUMENT_RESULT_CREATE_URL":"document/result/add",
@@ -167,7 +167,7 @@
 "EXTRACTION_SUBMIT_API":"https://apim-extraction-redirect.azure-api.net/authtoken/generate",
 "EXTRACTION_GET_API":"https://apim-extraction-redirect.azure-api.net/authtoken/status/get",
 "BLOB_STORAGE_API":"https://apim-extraction-redirect.azure-api.net/blob/sastoken/generate",
-"SUBSCRIBER_ID":"f3cce063-3d5b-4cec-ab48-623a853f859c",
+"SUBSCRIBER_ID":"70d514ac-2c3a-44b0-9f34-bd33be82093a",
 "PRIVATE_ENCRYPT_KEY":"vK4GdiPqhxfImPVSP50ZBM2PaFF3807a_wGX12GR7SQ=",
 "TASK_BROKER":"amqp://test:test@127.0.0.1:5672",
 "TASK_NAME":"tasks",
@@ -188,5 +188,6 @@
 "QUEUE_TYPE":"EVENTGRID",
 "POST_EXTRACTION_SVC_PORT":"4444",
 "POST_EXTRACTION_SVC_IP":"127.0.0.1",
-"DOWNLOAD_RESULT_FOLDER" : "downloads"
+"DOWNLOAD_RESULT_FOLDER" : "downloads",
+"REFERENCE_MASTERDATA_CSV":"Utilities/SWIGGY_VENDOR_EXTRACTION_HISTORY.csv"
 }

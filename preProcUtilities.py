@@ -609,11 +609,11 @@ def downloadFilesFromBlob(fileURIs):
         import requests
         blobUri = cfg.getBlobStorageAPI()
         header = {"Content-Type":"application/json"}
-        print("message input",
-              message,
-              get_sas_message,
-              blobUri,
-              header)
+        # print("message input",
+        #       message,
+        #       get_sas_message,
+        #       blobUri,
+        #       header)
         response = requests.post(url = blobUri,
                                 data = get_sas_message,
                                 headers = header)
@@ -627,7 +627,7 @@ def downloadFilesFromBlob(fileURIs):
 
         encrypted_response = responseObj["message"]
         dec_message = decryptMessage(encrypted_response)
-        print("decrypted message download from blob ", dec_message)
+        # print("decrypted message download from blob ", dec_message)
         message_obj = json.loads(dec_message)
 
         sas_token = message_obj["sas_token"]
@@ -1459,3 +1459,17 @@ def correct_gstin(GSTIN):
         print("Invalid GSTIN format",GSTIN_COPY)
         return GSTIN_COPY
 
+def identify_pan_pattern(string)->str:
+    """
+    extracting GSTIN fromates from string and returning first identified format
+    """
+    try:
+        pattern = r'[A-Z]{5}\d{4}[A-Z]{1}' 
+        pan_pattern = re.findall(pattern, string, flags = 0)
+        if len(pan_pattern)>0:
+            return pan_pattern[0]
+        # print("Given text does't contain PAN")
+        return string
+    except :
+        print("PAN extraction exception:",traceback.print_exc())
+        return string

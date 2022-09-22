@@ -606,4 +606,7 @@ def getVendorMasterData():
 def getBuyerMasterData():
     return configdata["BUYER_MASTERDATA_CSV"]
 
+def getReferenceMasterData():
+    return configdata["REFERENCE_MASTERDATA_CSV"]
+
 
